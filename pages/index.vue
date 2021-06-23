@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="wrapper">
-      <span class="bricsa-square"></span>
+      <span id="bricsa-square" class="bricsa-square"></span>
       <div class="section section01-container" id="section01">
         <div class="section-01">
           <div id="section-bg01" />
@@ -83,7 +83,7 @@
           src="../assets/img/05.jpg"
         />
         <div class="section-05">
-          <p  id="section05_title" class="title">
+          <p id="section05_title" class="title">
             ¡Siempre algo <br />
             que hacer!
           </p>
@@ -102,103 +102,99 @@
       <div class="section section06-container" id="section06">
         <div class="section-06">
           <img lazyload class="imgtop" src="../assets/img/20.jpg" />
-          <div class="title_container">
-            <p class="title">
-              ¡Que rico <br />
-              <strong>vivir así!</strong>
-            </p>
-          </div>
-          <div class="subtitle_container">
-            <p class="subtitle">
-              Salón lounge<br />
-              para lucirte con<br />
-              tus amigos.
-            </p>
-          </div>
-          <div class="imgbottom_container">
-            <img lazyload class="imgbottom" src="../assets/img/08.jpg" />
-          </div>
+          <p id="section06_title" class="title">
+            ¡Que rico <br />
+            <strong>vivir así!</strong>
+          </p>
+          <p id="section06_subtitle" class="subtitle">
+            Salón lounge<br />
+            para lucirte con<br />
+            tus amigos.
+          </p>
+          <img
+            lazyload
+            id="section06_imgbottom"
+            class="imgbottom"
+            src="../assets/img/08.jpg"
+          />
         </div>
       </div>
       <div class="section section07-container" id="section07">
-        <div class="sectionbg_container">
-          <img lazyload class="section-bg" src="../assets/img/4.jpg" />
-        </div>
+        <img
+          lazyload
+          id="section07_bg"
+          class="section-bg"
+          src="../assets/img/4.jpg"
+        />
         <div class="section-07">
-          <div class="title_container">
-            <p class="title">El espacio perfecto</p>
-          </div>
-          <div class="subtitle_container">
-            <p class="subtitle">
-              para <br />
-              ser tú
-            </p>
-          </div>
-          <div class="imgcut_container">
-            <img lazyload class="imgcut" src="../assets/img/10.jpg" />
-          </div>
-          <div class="downgrade_container">
-            <p class="downgrade">
-              Diseño Flexible a la medida<br />
-              de cómo quieras vivir.
-            </p>
-          </div>
+          <p id="section07_title" class="title">El espacio perfecto</p>
+          <p id="section07_subtitle" class="subtitle">
+            para <br />
+            ser tú
+          </p>
+          <img
+            id="section07_imgcut"
+            lazyload
+            class="imgcut"
+            src="../assets/img/10.jpg"
+          />
+          <p id="section07_downgrade" class="downgrade">
+            Diseño Flexible a la medida<br />
+            de cómo quieras vivir.
+          </p>
         </div>
       </div>
       <div class="section section08-container" id="section08">
-        <div class="sectionbg_container">
-          <img lazyload class="section-bg" src="../assets/img/11.jpg" />
-        </div>
-        <div class="sectionbg02_container">
-          <img lazyload class="section-bg02" src="../assets/img/12.jpg" />
-        </div>
+        <img
+          lazyload
+          id="section08_bg"
+          class="section-bg"
+          src="../assets/img/11.jpg"
+        />
+        <img
+          lazyload
+          id="section08_bg02"
+          class="section-bg02"
+          src="../assets/img/12.jpg"
+        />
         <div class="section-08">
-          <div class="title01_container">
-            <p class="title">
-              ¿Quedarse<br />
-              en cama?<br />
-              ¡Buena idea!
-            </p>
-          </div>
-          <div class="title02_container">
-            <p class="title02">
-              Un picoteo<br />
-              ¡y a relajarse!
-            </p>
-          </div>
-          <div class="subtitle01_container">
-            <p class="subtitle">
-              Ventanas termopanel con<br />
-              marco PVC (aislación térmica<br />
-              y acústica).
-            </p>
-          </div>
-          <div class="subtitle02_container">
-            <p class="subtitle02">
-              Cocina abierta y conectada<br />
-              con el living.
-            </p>
-          </div>
+          <p id="section08_title" class="title">
+            ¿Quedarse<br />
+            en cama?<br />
+            ¡Buena idea!
+          </p>
+          <p id="section08_title02" class="title02">
+            Un picoteo<br />
+            ¡y a relajarse!
+          </p>
+          <p id="section08_subtitle" class="subtitle">
+            Ventanas termopanel con<br />
+            marco PVC (aislación térmica<br />
+            y acústica).
+          </p>
+          <p id="section08_subtitle02" class="subtitle02">
+            Cocina abierta y conectada<br />
+            con el living.
+          </p>
         </div>
       </div>
       <div class="section section10-container" id="section10">
-        <div class="sectionbg-container">
-          <img lazyload class="section-bg" src="../assets/img/13.jpg" />
-        </div>
+        <img
+          id="section10_bg"
+          lazyload
+          class="section-bg"
+          src="../assets/img/13.jpg"
+        />
         <div class="section-10">
-          <div class="title_container">
-            <p class="title">
-              Muévete<br />
-              indoor o<br />
-              outdoor
-            </p>
-          </div>
-          <div class="subtitle_container">
-            <p class="subtitle">
-              Gimnasio interior<br />
-              con salida al jardín.
-            </p>
-          </div>
+          <p id="section10_title" class="title">
+            Muévete<br />
+            indoor o<br />
+            outdoor
+          </p>
+          <p id="section10_subtitle" class="subtitle">
+            Gimnasio interior<br />
+            con salida al jardín.
+          </p>
         </div>
       </div>
       <div class="section section11-container" id="section11">
@@ -206,60 +202,47 @@
           <source src="../assets/img/video02.mp4" type="video/mp4" />
         </video>
         <div class="section-11">
-          <div class="title_container">
-            <p class="title">Así da gusto</p>
-          </div>
-          <div class="subtitle_container">
-            <p class="subtitle">trabajar</p>
-          </div>
-          <div class="downgrade_container">
-            <p class="downgrade">Zonas Cowork.</p>
-          </div>
-          <div class="section11-img_container">
-            <img class="section-11__img01" src="../assets/img/08.jpg" />
-          </div>
+          <p id="section11_title" class="title">Así da gusto</p>
+          <p id="section11_subtitle" class="subtitle">trabajar</p>
+          <p id="section11_downgrade" class="downgrade">Zonas Cowork.</p>
+          <img
+            id="section11_img01"
+            class="section-11__img01"
+            src="../assets/img/08.jpg"
+          />
           <img class="section-11__img02" src="../assets/img/14.jpg" />
         </div>
       </div>
       <div class="section section12-container" id="section12">
-        <div class="sectionbg_container">
-          <img lazyload class="section-bg" src="../assets/img/15.jpg" />
-        </div>
+        <img
+          id="section12_bg"
+          lazyload
+          class="section-bg"
+          src="../assets/img/15.jpg"
+        />
         <div class="section-12">
-          <div class="title_container">
-            <p class="title">
-              Recibe<br />
-              lo que quieras
-            </p>
-          </div>
-          <div class="subtitle_container">
-            <p class="subtitle">tranquilo</p>
-          </div>
-          <div class="downgrade_container">
-            <p class="downgrade">Smart lockers.</p>
-          </div>
+          <p id="section12_title" class="title">
+            Recibe<br />
+            lo que quieras
+          </p>
+          <p id="section12_subtitle" class="subtitle">tranquilo</p>
+          <p id="section12_downgrade" class="downgrade">Smart lockers.</p>
         </div>
       </div>
       <div class="section section13-container" id="section13">
-        <div class="sectionbg_container">
-          <img lazyload class="section-bg" src="../assets/img/16.jpg" />
-        </div>
+        <img id="section13_bg" lazyload class="section-bg" src="../assets/img/16.jpg" />
         <div class="section-13">
-          <div class="entorno_container">
-            <img lazyload class="entorno" src="../assets/img/entorno.png" />
-          </div>
+          <img id="section13_entorno" lazyload class="entorno" src="../assets/img/entorno.png" />
           <p class="title">¡Mantengamos viva</p>
           <p class="subtitle">
             la vida de<br />
             barrio!
           </p>
-          <div class="downgrade_container">
-            <p class="downgrade">
-              Ubicado en un barrio<br />
-              tradicional de Ñuñoa, cercano<br />
-              a todo lo que necesitas.
-            </p>
-          </div>
+          <p id="section13_downgrade" class="downgrade">
+            Ubicado en un barrio<br />
+            tradicional de Ñuñoa, cercano<br />
+            a todo lo que necesitas.
+          </p>
           <img lazyload class="fachada" src="../assets/img/17.jpg" />
         </div>
       </div>
@@ -267,7 +250,7 @@
         <video autoplay loop preload="auto" class="section-bg">
           <source src="../assets/img/video03.mp4" type="video/mp4" />
         </video>
-        <div class="section-14">
+        <div id="section14-14" class="section-14">
           <img class="section-14__img01" src="../assets/img/11.jpg" />
           <p class="title">
             Vívelo<br />
@@ -303,11 +286,11 @@ export default {
   methods: {
     startAnimations: function () {
       var tl = new TimelineMax({ onUpdate: updatePercentage });
-
+      tl.to("#bricsa-square", 40, { top: "90%" }, 0);
       tl.to("#section-bg01", 1, { "background-position-x": "-470px" }, 0);
       tl.to("#section1_vivelo", 1, { top: "20%" }, 0);
       tl.to("#section01", 1, { top: "-100%" }, 1);
-      tl.to("#section02_subtitle", 1, { bottom: "0", opacity: "1" }, 1);
+      tl.to("#section02_subtitle", 1, { bottom: "10%", opacity: "1" }, 1);
       tl.to("#section02", 1, { top: "-100%" }, 2);
       tl.to("#section03_bg01", 3, { left: "-300%" }, 3);
       tl.to("#section03_subtitle01", 2, { left: "-100%" }, 3.5);
@@ -316,23 +299,74 @@ export default {
       tl.to("#section03_disfruta", 4, { left: "-160%" }, 4);
       tl.to("#section03", 1, { top: "-100%" }, 7);
       tl.to("#section05_bg", 2, { left: "-100%" }, 8);
-      tl.to("#section05_title", 1, { top: "5%", opacity: 1, filter: "blur(0)" }, 8);
-      tl.to("#section05_subtitle", 1, { top: "15%", opacity: 1, filter: "blur(0)" }, 8);
+      tl.to(
+        "#section05_title",
+        1,
+        { top: "5%", opacity: 1, filter: "blur(0)" },
+        8
+      );
+      tl.to(
+        "#section05_subtitle",
+        1,
+        { top: "15%", opacity: 1, filter: "blur(0)" },
+        8
+      );
       tl.to("#section05_imgcut", 1, { right: "0%" }, 8);
       tl.to("#section05", 1, { top: "-100%" }, 10);
-      tl.to("#section06", 1, { top: "-100%" }, 30);
-      tl.to("#section07", 1, { top: "-100%" }, 30);
-      tl.to("#section08", 1, { top: "-100%" }, 30);
-      tl.to("#section10", 1, { top: "-100%" }, 30);
+      tl.to("#section06_title", 1, { left: "5%" }, 11);
+      tl.to("#section06_subtitle", 1, { left: "10%" }, 11);
+      tl.to("#section06_imgbottom", 1, { left: "0" }, 11);
+      tl.to("#section06", 1, { top: "-100%" }, 12);
+      tl.to("#section07_bg", 3, { left: "-200%" }, 13);
+      tl.to("#section07_title", 1, { top: "3%", opacity: "1" }, 14);
+      tl.to("#section07_subtitle", 1, { top: "8%", opacity: "1" }, 14);
+      tl.to("#section07_downgrade", 1, { bottom: "5%", opacity: "1" }, 14);
+      tl.to("#section07_imgcut", 1, { left: "0" }, 14);
+      tl.to("#section07", 1, { top: "-100%" }, 16);
+      tl.to("#section08_bg", 4, { left: "160%" }, 17);
+      tl.to("#section08_title", 1, { filter: "blur(0)", opacity: "1" }, 17);
+      tl.to("#section08_subtitle", 1, { filter: "blur(0)", opacity: "1" }, 17);
+      tl.to("#section08_bg02", 4, { left: "-350%" }, 20);
+      tl.to("#section08_title", 1, { filter: "blur(20px)", opacity: "0" }, 20);
+      tl.to(
+        "#section08_subtitle",
+        1,
+        { filter: "blur(20px)", opacity: "0" },
+        20
+      );
+      tl.to("#section08_title02", 1, { filter: "blur(0)", opacity: "1" }, 20);
+      tl.to(
+        "#section08_subtitle02",
+        1,
+        { filter: "blur(0)", opacity: "1" },
+        20
+      );
+      tl.to("#section08", 1, { top: "-100%" }, 23);
+      tl.to("#section10_bg", 2, { left: "-120%" }, 24);
+      tl.to("#section10_title", 1, { filter: "blur(0)", opacity: "1" }, 24);
+      tl.to("#section10_subtitle", 1, { filter: "blur(0)", opacity: "1" }, 24);
+      tl.to("#section10", 1, { top: "-100%" }, 26);
+      tl.to("#section11_title", 1, { bottom: "27%", opacity: "1" }, 27);
+      tl.to("#section11_subtitle", 1, { bottom: "19%", opacity: "1" }, 27);
+      tl.to("#section11_downgrade", 1, { bottom: "16%", opacity: "1" }, 27);
+      tl.to("#section11_img01", 2, { left: "-75%" }, 28);
       tl.to("#section11", 1, { top: "-100%" }, 30);
-      tl.to("#section12", 1, { top: "-100%" }, 30);
-      tl.to("#section13", 1, { top: "-100%" }, 30);
-      tl.to("#section14", 1, { top: "-100%" }, 30);
+      tl.to("#section12_bg", 1, { left: "-120%" }, 31);
+      tl.to("#section12_title", 1, { top: "5%", opacity: "1" }, 31);
+      tl.to("#section12_subtitle", 1, { top: "15%", opacity: "1" }, 31);
+      tl.to("#section12_downgrade", 1, { top: "25%", opacity: "1" }, 31);
+      tl.to("#section12", 1, { top: "-100%" }, 33);
+      tl.to("#section13_bg", 1, { left: "-70%" }, 34);
+      tl.to("#section13_entorno", 4, { left: "-100%" }, 34);
+      tl.to("#section13_downgrade", 1, { filter: "blur(0)", opacity: "1" }, 34);
+      tl.to("#section13", 1, { top: "-100%" }, 38);
+      tl.to("#section14-14", 1, { top: "0", opacity: "1" }, 39);
+      tl.to("#section14", 1, { top: "-100%" }, 40);
       const scene = this.$scrollmagic
         .scene({
           triggerElement: ".wrapper",
           triggerHook: 0,
-          duration: "2000%",
+          duration: "4000%",
         })
         .setPin(".wrapper")
         .setTween(tl);
@@ -538,7 +572,7 @@ body {
   width: 100%;
   font-size: 70px;
   text-align: center;
-  bottom: 13%;
+  bottom: 30%;
   font-weight: 800;
   line-height: 0.9;
 }
@@ -548,6 +582,7 @@ body {
   position: absolute;
   color: #fff;
   width: 100%;
+  font-weight: 300;
   font-size: 40px;
   text-align: center;
   line-height: 1;
@@ -688,7 +723,6 @@ body {
   object-position: -240px center;
 }
 .section06-container .section-06 .imgbottom {
-  transition: all 3s ease-in-out;
   height: 55%;
   width: 270%;
   position: absolute;
@@ -697,22 +731,17 @@ body {
   object-fit: cover;
 }
 .section06-container .section-06 .title {
-  transition: all 2s ease-in-out;
   position: absolute;
   color: #fff;
   width: 90%;
   font-size: 50px;
   text-align: center;
-  top: 0;
+  top: 5%;
   left: -80%;
   font-weight: 300;
   line-height: 0.9;
 }
-.section06-container .section-06 .title_container .enter {
-  left: 5%;
-}
 .section06-container .section-06 .subtitle {
-  transition: all 2s ease-in-out;
   position: absolute;
   color: #fff;
   width: 80%;
@@ -723,7 +752,7 @@ body {
   left: 100%;
   line-height: 1;
 }
-.section07-container .sectionbg_container .section-bg {
+.section07-container .section-bg {
   left: -10%;
 }
 .section07-container .section-07 {
@@ -736,8 +765,7 @@ body {
   left: 0;
   z-index: 1;
 }
-.section07-container .section-07 .imgcut_container .imgcut {
-  transition: all 2s ease-in-out;
+.section07-container .section-07 .imgcut {
   width: 40%;
   height: 25%;
   object-fit: cover;
@@ -746,11 +774,7 @@ body {
   left: -40%;
   bottom: 25%;
 }
-.section07-container .section-07 .imgcut_container .enter {
-  left: 0;
-}
-.section07-container .section-07 .title_container .title {
-  transition: all 2s ease-in-out;
+.section07-container .section-07 .title {
   position: absolute;
   color: #fff;
   width: 90%;
@@ -762,12 +786,7 @@ body {
   line-height: 0.9;
   opacity: 0;
 }
-.section07-container .section-07 .title_container .enter {
-  opacity: 1;
-  top: 8%;
-}
-.section07-container .section-07 .subtitle_container .subtitle {
-  transition: all 2s ease-in-out;
+.section07-container .section-07 .subtitle {
   position: absolute;
   color: #fff;
   width: 80%;
@@ -779,12 +798,7 @@ body {
   line-height: 1;
   opacity: 0;
 }
-.section07-container .section-07 .subtitle_container .enter {
-  opacity: 1;
-  top: 2%;
-}
-.section07-container .section-07 .downgrade_container .downgrade {
-  transition: all 2s ease-in-out;
+.section07-container .section-07 .downgrade {
   position: absolute;
   color: #fff;
   width: 80%;
@@ -794,65 +808,37 @@ body {
   bottom: 0;
   opacity: 0;
 }
-.section07-container .section-07 .downgrade_container .enter {
-  opacity: 1;
-  bottom: 5%;
-}
-.section08-container .sectionbg_container .section-bg {
-  transition: all 6s ease-in-out 1s;
+.section08-container .section-bg {
   position: absolute;
+  height: 100vh;
   filter: brightness(0.7);
   z-index: 0;
-  left: -100%;
+  left: -180%;
 }
-.section08-container .sectionbg_container .enter {
-  left: 160%;
-}
-.section08-container .sectionbg02_container .section-bg02 {
-  transition: all 6s ease-in-out 6s;
+.section08-container .section-bg02 {
   position: absolute;
   height: 100vh;
   filter: brightness(0.7);
   z-index: -1;
   left: -100%;
 }
-.section08-container .sectionbg02_container .enter {
-  left: -350%;
-}
 .section08-container .section-08 {
   color: #fff;
 }
-.section08-container .section-08 .title01_container .title {
-  transition: all 1s ease-in-out 1s;
+.section08-container .section-08 .title {
   position: absolute;
   color: #fff;
   width: 90%;
   font-size: 60px;
   text-align: center;
-  bottom: 15%;
+  bottom: 17%;
   left: 5%;
   font-weight: 800;
   line-height: 0.9;
   filter: blur(20px);
   opacity: 0;
 }
-.section08-container .section-08 .title01_container .enter {
-  animation: fade-out 1s both 6s;
-  filter: blur(0);
-  opacity: 1;
-}
-@keyframes fade-out {
-  0% {
-    filter: blur(0);
-    opacity: 1;
-  }
-  100% {
-    filter: blur(20px);
-    opacity: 0;
-  }
-}
-.section08-container .section-08 .subtitle01_container .subtitle {
-  transition: all 1s ease-in-out 1s;
+.section08-container .section-08 .subtitle {
   position: absolute;
   color: #fff;
   width: 80%;
@@ -866,23 +852,7 @@ body {
   filter: blur(20px);
   opacity: 0;
 }
-.section08-container .section-08 .subtitle01_container .enter {
-  animation: fade-out 1s both 6s;
-  filter: blur(0);
-  opacity: 1;
-}
-@keyframes fade-out {
-  0% {
-    filter: blur(0);
-    opacity: 1;
-  }
-  100% {
-    filter: blur(20px);
-    opacity: 0;
-  }
-}
-.section08-container .section-08 .title02_container .title02 {
-  transition: all 1s ease-in-out 6s;
+.section08-container .section-08 .title02 {
   position: absolute;
   color: #fff;
   width: 90%;
@@ -895,12 +865,7 @@ body {
   filter: blur(20px);
   opacity: 0;
 }
-.section08-container .section-08 .title02_container .enter {
-  filter: blur(0);
-  opacity: 1;
-}
-.section08-container .section-08 .subtitle02_container .subtitle02 {
-  transition: all 1s ease-in-out 6s;
+.section08-container .section-08 .subtitle02 {
   position: absolute;
   color: #fff;
   width: 80%;
@@ -913,26 +878,16 @@ body {
   filter: blur(20px);
   opacity: 0;
 }
-.section08-container .section-08 .subtitle02_container .enter {
-  filter: blur(0);
-  opacity: 1;
-}
-.section10-container .sectionbg-container .section-bg {
-  transition: all 5s ease-in-out 1s;
+.section10-container .section-bg {
   position: absolute;
   height: 100vh;
   filter: brightness(0.7);
-  left: -10%;
-}
-.section10-container .sectionbg-container .enter {
-  left: -120%;
+  left: 0;
 }
 .section10-container .section-10 {
   color: #fff;
 }
-.section10-container .section-10 .title_container .title {
-  transition: all 1s ease-in-out 1s;
-  animation: section10_title 1s both 1s;
+.section10-container .section-10 .title {
   position: absolute;
   color: #fff;
   width: 90%;
@@ -945,12 +900,7 @@ body {
   filter: blur(20px);
   opacity: 0;
 }
-.section10-container .section-10 .title_container .enter {
-  filter: blur(0);
-  opacity: 1;
-}
-.section10-container .section-10 .subtitle_container .subtitle {
-  transition: all 1s ease-in-out 1s;
+.section10-container .section-10 .subtitle {
   position: absolute;
   color: #fff;
   width: 80%;
@@ -962,10 +912,6 @@ body {
   line-height: 1;
   filter: blur(20px);
   opacity: 0;
-}
-.section10-container .section-10 .subtitle_container .enter {
-  filter: blur(0);
-  opacity: 1;
 }
 .section11-container .section-bg {
   filter: brightness(0.7);
@@ -983,19 +929,14 @@ body {
   width: 75%;
   height: 90%;
 }
-.section11-container .section-11 .section11-img_container .section-11__img01 {
-  transition: all 2s ease-in-out 4s;
+.section11-container .section-11 .section-11__img01 {
   z-index: 1;
   left: 0;
-}
-.section11-container .section-11 .section11-img_container .enter {
-  left: -75%;
 }
 .section11-container .section-11 .section-11__img02 {
   object-position: 10%;
 }
-.section11-container .section-11 .title_container .title {
-  transition: all 1s ease-in-out 1s;
+.section11-container .section-11 .title {
   z-index: 2;
   position: absolute;
   width: 80%;
@@ -1006,12 +947,7 @@ body {
   font-weight: 300;
   opacity: 0;
 }
-.section11-container .section-11 .title_container .enter {
-  bottom: 27%;
-  opacity: 1;
-}
-.section11-container .section-11 .subtitle_container .subtitle {
-  transition: all 1s ease-in-out 1s;
+.section11-container .section-11 .subtitle {
   z-index: 2;
   position: absolute;
   width: 80%;
@@ -1022,12 +958,7 @@ body {
   text-align: right;
   opacity: 0;
 }
-.section11-container .section-11 .subtitle_container .enter {
-  bottom: 15%;
-  opacity: 1;
-}
-.section11-container .section-11 .downgrade_container .downgrade {
-  transition: all 1s ease-in-out 1s;
+.section11-container .section-11 .downgrade {
   z-index: 2;
   position: absolute;
   bottom: 0%;
@@ -1037,25 +968,15 @@ body {
   text-align: center;
   opacity: 0;
 }
-.section11-container .section-11 .downgrade_container .enter {
-  bottom: 16%;
-  opacity: 1;
-}
-.section12-container .sectionbg_container .section-bg {
-  transition: all 3s ease-in-out 1s;
+.section12-container .section-bg {
   left: -20%;
   object-position: 100%;
   filter: brightness(0.7);
 }
-.section12-container .sectionbg_container .enter {
-  left: -120%;
-}
 .section12-container .section-12 {
   color: #fff;
 }
-.section12-container .section-12 .title_container .title {
-  transition: all 1s ease-in-out 1s;
-  animation: section12_title 1s both 1s;
+.section12-container .section-12 .title {
   z-index: 2;
   position: absolute;
   width: 80%;
@@ -1064,13 +985,9 @@ body {
   font-size: 50px;
   font-weight: 300;
   opacity: 0;
+  line-height: 0.9;
 }
-.section12-container .section-12 .title_container .enter {
-  top: 0;
-  opacity: 1;
-}
-.section12-container .section-12 .subtitle_container .subtitle {
-  transition: all 1s ease-in-out 1s;
+.section12-container .section-12 .subtitle {
   z-index: 2;
   position: absolute;
   width: 80%;
@@ -1080,12 +997,7 @@ body {
   font-weight: 800;
   opacity: 0;
 }
-.section12-container .section-12 .subtitle_container .enter {
-  top: 13%;
-  opacity: 1;
-}
-.section12-container .section-12 .downgrade_container .downgrade {
-  transition: all 1s ease-in-out 1s;
+.section12-container .section-12 .downgrade {
   z-index: 2;
   position: absolute;
   top: 0%;
@@ -1095,39 +1007,27 @@ body {
   font-weight: 300;
   opacity: 0;
 }
-.section12-container .section-12 .downgrade_container .enter {
-  top: 30%;
-  opacity: 1;
-}
-.section13-container .sectionbg_container .section-bg {
-  transition: all 3s ease-in-out 1s;
+.section13-container .section-bg {
   position: absolute;
   height: 100%;
   filter: brightness(0.7);
   left: -100%;
 }
-.section13-container .sectionbg_container .enter {
-  left: -70%;
-}
 .section13-container .section-13 {
   color: #fff;
 }
-.section13-container .section-13 .entorno_container .entorno {
-  transition: all 4s ease-in-out;
+.section13-container .section-13 .entorno {
   height: 150px;
   position: absolute;
   top: 1%;
   left: 80%;
-}
-.section13-container .section-13 .entorno_container .enter {
-  left: -100%;
 }
 .section13-container .section-13 .title {
   z-index: 2;
   position: absolute;
   width: 80%;
   left: 10%;
-  bottom: 60%;
+  bottom: 66%;
   font-size: 40px;
   font-weight: 300;
 }
@@ -1136,26 +1036,21 @@ body {
   position: absolute;
   width: 80%;
   left: 10%;
-  bottom: 42%;
+  bottom: 52%;
   font-size: 60px;
   font-weight: 800;
   line-height: 0.9;
 }
-.section13-container .section-13 .downgrade_container .downgrade {
-  transition: all 1s ease-in-out 1s;
+.section13-container .section-13 .downgrade {
   z-index: 2;
   position: absolute;
-  bottom: 33%;
+  bottom: 39%;
   font-size: 24px;
   width: 80%;
   left: 10%;
   font-weight: 300;
   filter: blur(100px);
   opacity: 0;
-}
-.section13-container .section-13 .downgrade_container .enter {
-  filter: blur(0);
-  opacity: 1;
 }
 .section13-container .section-13 .fachada {
   position: absolute;
@@ -1170,7 +1065,6 @@ body {
   filter: brightness(1);
 }
 .section14-container .section-14 {
-  transition: all 1s ease-in-out 1s;
   color: #fff;
   position: absolute;
   width: 100%;
