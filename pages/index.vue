@@ -1,0 +1,1257 @@
+<template>
+  <div>
+    <div class="wrapper">
+      <span class="bricsa-square"></span>
+      <div class="section section01-container" id="section01">
+        <div class="section-01">
+          <div id="section-bg01" />
+          <img
+            lazyload
+            class="section-logo"
+            src="../assets/img/logo-comuna.png"
+          />
+          <p class="call">
+            Vívelo por <br />
+            dentro y<br />
+            por fuera
+          </p>
+          <p class="downgrade">
+            Sal a vivir tu <br />
+            nuevo departamento.
+          </p>
+          <p id="section1_vivelo" class="uptext">Vívelo</p>
+          <img
+            lazyload
+            class="arrow-down"
+            src="../assets/img/arrow-down.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="section section02-container" id="section02">
+        <video autoplay loop preload="auto" class="section-bg">
+          <source src="../assets/img/video01.mp4" type="video/mp4" />
+        </video>
+        <div class="section-02">
+          <img src="../assets/img/02.jpg" />
+          <p class="title">Date una vuelta y respira</p>
+          <p id="section02_subtitle" class="subtitle">
+            ¡Está rodeado de áreas verdes!
+          </p>
+        </div>
+      </div>
+      <div class="section section03-container" id="section03">
+        <img
+          lazyload
+          class="section-bg"
+          id="section03_bg01"
+          src="../assets/img/03.jpg"
+          alt=""
+        />
+
+        <img
+          lazyload
+          id="section03_disfruta"
+          class="disfruta"
+          src="../assets/img/disfruta.png"
+        />
+        <img
+          lazyload
+          id="section03_bg02"
+          class="section-bg02"
+          src="../assets/img/04.jpg"
+          alt=""
+        />
+        <div class="section-03">
+          <p class="title">
+            Disfruta <br />
+            tu terraza <br />y tu plaza
+          </p>
+          <p id="section03_subtitle01" class="subtitle">
+            Depto. con opción a terraza privada.
+          </p>
+          <p id="section03_subtitle02" class="subtitle02">
+            Frente a Plaza Zañartu y cercano a otros parques.
+          </p>
+        </div>
+      </div>
+      <div class="section section05-container" id="section05">
+        <img
+          lazyload
+          id="section05_bg"
+          class="section-bg"
+          src="../assets/img/05.jpg"
+        />
+        <div class="section-05">
+          <p  id="section05_title" class="title">
+            ¡Siempre algo <br />
+            que hacer!
+          </p>
+          <p id="section05_subtitle" class="subtitle">
+            Múltiples espacios <br />
+            y áreas comunes.
+          </p>
+          <img
+            lazyload
+            id="section05_imgcut"
+            class="imgcut"
+            src="../assets/img/06.jpg"
+          />
+        </div>
+      </div>
+      <div class="section section06-container" id="section06">
+        <div class="section-06">
+          <img lazyload class="imgtop" src="../assets/img/20.jpg" />
+          <div class="title_container">
+            <p class="title">
+              ¡Que rico <br />
+              <strong>vivir así!</strong>
+            </p>
+          </div>
+          <div class="subtitle_container">
+            <p class="subtitle">
+              Salón lounge<br />
+              para lucirte con<br />
+              tus amigos.
+            </p>
+          </div>
+          <div class="imgbottom_container">
+            <img lazyload class="imgbottom" src="../assets/img/08.jpg" />
+          </div>
+        </div>
+      </div>
+      <div class="section section07-container" id="section07">
+        <div class="sectionbg_container">
+          <img lazyload class="section-bg" src="../assets/img/4.jpg" />
+        </div>
+        <div class="section-07">
+          <div class="title_container">
+            <p class="title">El espacio perfecto</p>
+          </div>
+          <div class="subtitle_container">
+            <p class="subtitle">
+              para <br />
+              ser tú
+            </p>
+          </div>
+          <div class="imgcut_container">
+            <img lazyload class="imgcut" src="../assets/img/10.jpg" />
+          </div>
+          <div class="downgrade_container">
+            <p class="downgrade">
+              Diseño Flexible a la medida<br />
+              de cómo quieras vivir.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="section section08-container" id="section08">
+        <div class="sectionbg_container">
+          <img lazyload class="section-bg" src="../assets/img/11.jpg" />
+        </div>
+        <div class="sectionbg02_container">
+          <img lazyload class="section-bg02" src="../assets/img/12.jpg" />
+        </div>
+        <div class="section-08">
+          <div class="title01_container">
+            <p class="title">
+              ¿Quedarse<br />
+              en cama?<br />
+              ¡Buena idea!
+            </p>
+          </div>
+          <div class="title02_container">
+            <p class="title02">
+              Un picoteo<br />
+              ¡y a relajarse!
+            </p>
+          </div>
+          <div class="subtitle01_container">
+            <p class="subtitle">
+              Ventanas termopanel con<br />
+              marco PVC (aislación térmica<br />
+              y acústica).
+            </p>
+          </div>
+          <div class="subtitle02_container">
+            <p class="subtitle02">
+              Cocina abierta y conectada<br />
+              con el living.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="section section10-container" id="section10">
+        <div class="sectionbg-container">
+          <img lazyload class="section-bg" src="../assets/img/13.jpg" />
+        </div>
+        <div class="section-10">
+          <div class="title_container">
+            <p class="title">
+              Muévete<br />
+              indoor o<br />
+              outdoor
+            </p>
+          </div>
+          <div class="subtitle_container">
+            <p class="subtitle">
+              Gimnasio interior<br />
+              con salida al jardín.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="section section11-container" id="section11">
+        <video autoplay loop preload="auto" class="section-bg">
+          <source src="../assets/img/video02.mp4" type="video/mp4" />
+        </video>
+        <div class="section-11">
+          <div class="title_container">
+            <p class="title">Así da gusto</p>
+          </div>
+          <div class="subtitle_container">
+            <p class="subtitle">trabajar</p>
+          </div>
+          <div class="downgrade_container">
+            <p class="downgrade">Zonas Cowork.</p>
+          </div>
+          <div class="section11-img_container">
+            <img class="section-11__img01" src="../assets/img/08.jpg" />
+          </div>
+          <img class="section-11__img02" src="../assets/img/14.jpg" />
+        </div>
+      </div>
+      <div class="section section12-container" id="section12">
+        <div class="sectionbg_container">
+          <img lazyload class="section-bg" src="../assets/img/15.jpg" />
+        </div>
+        <div class="section-12">
+          <div class="title_container">
+            <p class="title">
+              Recibe<br />
+              lo que quieras
+            </p>
+          </div>
+          <div class="subtitle_container">
+            <p class="subtitle">tranquilo</p>
+          </div>
+          <div class="downgrade_container">
+            <p class="downgrade">Smart lockers.</p>
+          </div>
+        </div>
+      </div>
+      <div class="section section13-container" id="section13">
+        <div class="sectionbg_container">
+          <img lazyload class="section-bg" src="../assets/img/16.jpg" />
+        </div>
+        <div class="section-13">
+          <div class="entorno_container">
+            <img lazyload class="entorno" src="../assets/img/entorno.png" />
+          </div>
+          <p class="title">¡Mantengamos viva</p>
+          <p class="subtitle">
+            la vida de<br />
+            barrio!
+          </p>
+          <div class="downgrade_container">
+            <p class="downgrade">
+              Ubicado en un barrio<br />
+              tradicional de Ñuñoa, cercano<br />
+              a todo lo que necesitas.
+            </p>
+          </div>
+          <img lazyload class="fachada" src="../assets/img/17.jpg" />
+        </div>
+      </div>
+      <div class="section section14-container" id="section14">
+        <video autoplay loop preload="auto" class="section-bg">
+          <source src="../assets/img/video03.mp4" type="video/mp4" />
+        </video>
+        <div class="section-14">
+          <img class="section-14__img01" src="../assets/img/11.jpg" />
+          <p class="title">
+            Vívelo<br />
+            por dentro<br />
+            y por fuera
+          </p>
+          <p class="subtitle">
+            La llave para comenzar<br />
+            a disfrutarlo<br />
+            la tienes tú.
+          </p>
+          <img class="section-14__img02" src="../assets/img/18.jpg" />
+          <img class="section-14__img03" src="../assets/img/19.jpg" />
+        </div>
+      </div>
+      <div class="section section15-container">
+        <div class="section-15">
+          <img lazyload class="logo" src="../assets/img/bricsa.png" />
+
+          <img lazyload class="bptl" src="../assets/img/bptl.png" />
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+import { gsap } from "gsap";
+export default {
+  mounted: function () {
+    this.startAnimations();
+  },
+  methods: {
+    startAnimations: function () {
+      var tl = new TimelineMax({ onUpdate: updatePercentage });
+
+      tl.to("#section-bg01", 1, { "background-position-x": "-470px" }, 0);
+      tl.to("#section1_vivelo", 1, { top: "20%" }, 0);
+      tl.to("#section01", 1, { top: "-100%" }, 1);
+      tl.to("#section02_subtitle", 1, { bottom: "0", opacity: "1" }, 1);
+      tl.to("#section02", 1, { top: "-100%" }, 2);
+      tl.to("#section03_bg01", 3, { left: "-300%" }, 3);
+      tl.to("#section03_subtitle01", 2, { left: "-100%" }, 3.5);
+      tl.to("#section03_subtitle02", 2, { left: "10%" }, 4);
+      tl.to("#section03_bg02", 2, { left: "-100%" }, 4);
+      tl.to("#section03_disfruta", 4, { left: "-160%" }, 4);
+      tl.to("#section03", 1, { top: "-100%" }, 7);
+      tl.to("#section05_bg", 2, { left: "-100%" }, 8);
+      tl.to("#section05_title", 1, { top: "5%", opacity: 1, filter: "blur(0)" }, 8);
+      tl.to("#section05_subtitle", 1, { top: "15%", opacity: 1, filter: "blur(0)" }, 8);
+      tl.to("#section05_imgcut", 1, { right: "0%" }, 8);
+      tl.to("#section05", 1, { top: "-100%" }, 10);
+      tl.to("#section06", 1, { top: "-100%" }, 30);
+      tl.to("#section07", 1, { top: "-100%" }, 30);
+      tl.to("#section08", 1, { top: "-100%" }, 30);
+      tl.to("#section10", 1, { top: "-100%" }, 30);
+      tl.to("#section11", 1, { top: "-100%" }, 30);
+      tl.to("#section12", 1, { top: "-100%" }, 30);
+      tl.to("#section13", 1, { top: "-100%" }, 30);
+      tl.to("#section14", 1, { top: "-100%" }, 30);
+      const scene = this.$scrollmagic
+        .scene({
+          triggerElement: ".wrapper",
+          triggerHook: 0,
+          duration: "2000%",
+        })
+        .setPin(".wrapper")
+        .setTween(tl);
+
+      this.$scrollmagic.addScene(scene);
+
+      function updatePercentage() {
+        tl.progress();
+      }
+    },
+  },
+};
+</script>
+
+<style>
+.wrapper {
+  overflow: hidden;
+  margin: 0 auto;
+  font-family: "Source Sans Pro", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  justify-content: center;
+  align-items: flex-end;
+}
+body {
+  margin: 0 !important;
+}
+.lookbook-container {
+  position: relative;
+}
+.section {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  min-height: 100vh;
+}
+.bricsa-square {
+  display: block;
+  position: fixed;
+  right: 0;
+  top: 20px;
+  width: 50px;
+  height: 50px;
+  background: #e40524;
+  z-index: 99;
+}
+.section-bg {
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+  left: -100%;
+}
+#section01,
+#section02,
+#section03,
+#section05,
+#section06,
+#section07,
+#section08,
+#section10,
+#section11,
+#section12,
+#section13,
+#section14 {
+  top: 0%;
+  position: absolute !important;
+}
+#section01 {
+  z-index: 13;
+}
+#section02 {
+  z-index: 12;
+}
+#section03 {
+  z-index: 11;
+}
+#section05 {
+  z-index: 10;
+}
+#section06 {
+  z-index: 9;
+}
+#section07 {
+  z-index: 8;
+}
+#section08 {
+  z-index: 7;
+}
+#section10 {
+  z-index: 6;
+}
+#section11 {
+  z-index: 5;
+}
+#section12 {
+  z-index: 4;
+}
+#section13 {
+  z-index: 3;
+}
+#section14 {
+  z-index: 2;
+}
+.section01-container #section-bg01 {
+  width: 100%;
+  height: 100vh;
+  background: url("../assets/img/01.jpg") no-repeat;
+  background-position-x: 0;
+}
+.section01-container .section-01 {
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.section01-container .section-01 .section-logo {
+  width: 100px;
+  position: absolute;
+  top: 50px;
+  left: 20px;
+}
+.section01-container .section-01 .call {
+  text-align: left;
+  width: 70%;
+  color: #fff;
+  font-size: 60px;
+  font-weight: bolder;
+  line-height: 0.8;
+  position: absolute;
+  bottom: 33%;
+  left: 20px;
+}
+.section01-container .section-01 .downgrade {
+  text-align: left;
+  width: 70%;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 0.8;
+  position: absolute;
+  bottom: 25%;
+  left: 20px;
+}
+.section01-container .section-01 #section1_vivelo {
+  transform: rotate(-90deg);
+  font-size: 230px;
+  position: absolute;
+  right: -250px;
+  margin: 0;
+  font-weight: bolder;
+  color: #fff;
+  top: 100%;
+}
+.section01-container .section-01 .arrow-down {
+  animation-name: arrow-down;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  width: 100px;
+  position: absolute;
+  margin: 0 auto;
+  left: 150px;
+  bottom: 20px;
+}
+@keyframes arrow-down {
+  0% {
+    bottom: 25px;
+  }
+  100% {
+    bottom: 10px;
+  }
+}
+.section02-container {
+  position: relative;
+}
+.section02-container .section-02 {
+  position: absolute;
+  width: 80%;
+  height: 75%;
+  left: 10%;
+  top: 13.5%;
+}
+.section02-container .section-02 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.7);
+}
+.section02-container .section-02 .title {
+  position: absolute;
+  color: #fff;
+  width: 100%;
+  font-size: 70px;
+  text-align: center;
+  bottom: 13%;
+  font-weight: 800;
+  line-height: 0.9;
+}
+.section02-container .section-02 .subtitle {
+  bottom: -100%;
+  opacity: 0;
+  position: absolute;
+  color: #fff;
+  width: 100%;
+  font-size: 40px;
+  text-align: center;
+  line-height: 1;
+}
+.section-03 {
+  position: relative;
+}
+.section03-container .section-bg {
+  position: absolute;
+  z-index: 3;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+.section03-container .disfruta {
+  position: absolute;
+  top: 0;
+  left: 70%;
+  z-index: 2;
+}
+.section03-container .section-bg02 {
+  position: absolute;
+  z-index: 1;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+.section03-container .section-03 {
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.section03-container .section-03 .title {
+  position: absolute;
+  color: #fff;
+  width: 80%;
+  font-size: 70px;
+  text-align: center;
+  bottom: 32%;
+  left: 10%;
+  font-weight: 800;
+  line-height: 0.9;
+  z-index: 3;
+}
+.section03-container .section-03 .subtitle {
+  position: absolute;
+  color: #fff;
+  width: 80%;
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+  bottom: 20%;
+  left: 10%;
+  line-height: 1;
+  z-index: 3;
+}
+.section03-container .section-03 .subtitle02 {
+  position: absolute;
+  color: #fff;
+  width: 80%;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  bottom: 20%;
+  left: 100%;
+  line-height: 1;
+  z-index: 3;
+}
+.section05-container .section-bg {
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+}
+.section05-container .section-05 {
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.section05-container .section-05 .title {
+  position: absolute;
+  color: #fff;
+  width: 90%;
+  font-size: 40px;
+  text-align: center;
+  top: 0;
+  opacity: 0;
+  left: 5%;
+  font-weight: 800;
+  line-height: 0.9;
+  filter: blur(100px);
+}
+.section05-container .section-05 .subtitle {
+  position: absolute;
+  color: #fff;
+  width: 80%;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  top: 0;
+  opacity: 0;
+  left: 10%;
+  line-height: 1;
+  filter: blur(100px);
+}
+.section05-container .section-05 .imgcut {
+  filter: brightness(0.7);
+  width: 60%;
+  height: 55%;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  bottom: 0;
+  right: -60%;
+}
+.section06-container .section-06 .imgtop {
+  filter: brightness(0.7);
+  height: 45%;
+  width: 180%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  object-position: -240px center;
+}
+.section06-container .section-06 .imgbottom {
+  transition: all 3s ease-in-out;
+  height: 55%;
+  width: 270%;
+  position: absolute;
+  bottom: 0;
+  left: -70%;
+  object-fit: cover;
+}
+.section06-container .section-06 .title {
+  transition: all 2s ease-in-out;
+  position: absolute;
+  color: #fff;
+  width: 90%;
+  font-size: 50px;
+  text-align: center;
+  top: 0;
+  left: -80%;
+  font-weight: 300;
+  line-height: 0.9;
+}
+.section06-container .section-06 .title_container .enter {
+  left: 5%;
+}
+.section06-container .section-06 .subtitle {
+  transition: all 2s ease-in-out;
+  position: absolute;
+  color: #fff;
+  width: 80%;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  top: 20%;
+  left: 100%;
+  line-height: 1;
+}
+.section07-container .sectionbg_container .section-bg {
+  left: -10%;
+}
+.section07-container .section-07 {
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.section07-container .section-07 .imgcut_container .imgcut {
+  transition: all 2s ease-in-out;
+  width: 40%;
+  height: 25%;
+  object-fit: cover;
+  object-position: -100px center;
+  position: absolute;
+  left: -40%;
+  bottom: 25%;
+}
+.section07-container .section-07 .imgcut_container .enter {
+  left: 0;
+}
+.section07-container .section-07 .title_container .title {
+  transition: all 2s ease-in-out;
+  position: absolute;
+  color: #fff;
+  width: 90%;
+  font-size: 30px;
+  text-align: center;
+  top: 70%;
+  left: 5%;
+  font-weight: 300;
+  line-height: 0.9;
+  opacity: 0;
+}
+.section07-container .section-07 .title_container .enter {
+  opacity: 1;
+  top: 8%;
+}
+.section07-container .section-07 .subtitle_container .subtitle {
+  transition: all 2s ease-in-out;
+  position: absolute;
+  color: #fff;
+  width: 80%;
+  font-size: 100px;
+  font-weight: 800;
+  text-align: center;
+  top: 70%;
+  left: 10%;
+  line-height: 1;
+  opacity: 0;
+}
+.section07-container .section-07 .subtitle_container .enter {
+  opacity: 1;
+  top: 2%;
+}
+.section07-container .section-07 .downgrade_container .downgrade {
+  transition: all 2s ease-in-out;
+  position: absolute;
+  color: #fff;
+  width: 80%;
+  font-size: 26px;
+  left: 10%;
+  font-weight: 300;
+  bottom: 0;
+  opacity: 0;
+}
+.section07-container .section-07 .downgrade_container .enter {
+  opacity: 1;
+  bottom: 5%;
+}
+.section08-container .sectionbg_container .section-bg {
+  transition: all 6s ease-in-out 1s;
+  position: absolute;
+  filter: brightness(0.7);
+  z-index: 0;
+  left: -100%;
+}
+.section08-container .sectionbg_container .enter {
+  left: 160%;
+}
+.section08-container .sectionbg02_container .section-bg02 {
+  transition: all 6s ease-in-out 6s;
+  position: absolute;
+  height: 100vh;
+  filter: brightness(0.7);
+  z-index: -1;
+  left: -100%;
+}
+.section08-container .sectionbg02_container .enter {
+  left: -350%;
+}
+.section08-container .section-08 {
+  color: #fff;
+}
+.section08-container .section-08 .title01_container .title {
+  transition: all 1s ease-in-out 1s;
+  position: absolute;
+  color: #fff;
+  width: 90%;
+  font-size: 60px;
+  text-align: center;
+  bottom: 15%;
+  left: 5%;
+  font-weight: 800;
+  line-height: 0.9;
+  filter: blur(20px);
+  opacity: 0;
+}
+.section08-container .section-08 .title01_container .enter {
+  animation: fade-out 1s both 6s;
+  filter: blur(0);
+  opacity: 1;
+}
+@keyframes fade-out {
+  0% {
+    filter: blur(0);
+    opacity: 1;
+  }
+  100% {
+    filter: blur(20px);
+    opacity: 0;
+  }
+}
+.section08-container .section-08 .subtitle01_container .subtitle {
+  transition: all 1s ease-in-out 1s;
+  position: absolute;
+  color: #fff;
+  width: 80%;
+  font-size: 26px;
+  font-weight: 300;
+  text-align: center;
+  bottom: 5%;
+  left: 10%;
+  line-height: 1;
+  opacity: 0;
+  filter: blur(20px);
+  opacity: 0;
+}
+.section08-container .section-08 .subtitle01_container .enter {
+  animation: fade-out 1s both 6s;
+  filter: blur(0);
+  opacity: 1;
+}
+@keyframes fade-out {
+  0% {
+    filter: blur(0);
+    opacity: 1;
+  }
+  100% {
+    filter: blur(20px);
+    opacity: 0;
+  }
+}
+.section08-container .section-08 .title02_container .title02 {
+  transition: all 1s ease-in-out 6s;
+  position: absolute;
+  color: #fff;
+  width: 90%;
+  font-size: 60px;
+  text-align: center;
+  top: 3%;
+  left: 5%;
+  font-weight: 800;
+  line-height: 0.9;
+  filter: blur(20px);
+  opacity: 0;
+}
+.section08-container .section-08 .title02_container .enter {
+  filter: blur(0);
+  opacity: 1;
+}
+.section08-container .section-08 .subtitle02_container .subtitle02 {
+  transition: all 1s ease-in-out 6s;
+  position: absolute;
+  color: #fff;
+  width: 80%;
+  font-size: 26px;
+  font-weight: 300;
+  text-align: center;
+  top: 24%;
+  left: 10%;
+  line-height: 1;
+  filter: blur(20px);
+  opacity: 0;
+}
+.section08-container .section-08 .subtitle02_container .enter {
+  filter: blur(0);
+  opacity: 1;
+}
+.section10-container .sectionbg-container .section-bg {
+  transition: all 5s ease-in-out 1s;
+  position: absolute;
+  height: 100vh;
+  filter: brightness(0.7);
+  left: -10%;
+}
+.section10-container .sectionbg-container .enter {
+  left: -120%;
+}
+.section10-container .section-10 {
+  color: #fff;
+}
+.section10-container .section-10 .title_container .title {
+  transition: all 1s ease-in-out 1s;
+  animation: section10_title 1s both 1s;
+  position: absolute;
+  color: #fff;
+  width: 90%;
+  font-size: 60px;
+  text-align: center;
+  top: 3%;
+  left: 5%;
+  font-weight: 800;
+  line-height: 0.9;
+  filter: blur(20px);
+  opacity: 0;
+}
+.section10-container .section-10 .title_container .enter {
+  filter: blur(0);
+  opacity: 1;
+}
+.section10-container .section-10 .subtitle_container .subtitle {
+  transition: all 1s ease-in-out 1s;
+  position: absolute;
+  color: #fff;
+  width: 80%;
+  font-size: 26px;
+  font-weight: 300;
+  text-align: center;
+  bottom: 10%;
+  left: 10%;
+  line-height: 1;
+  filter: blur(20px);
+  opacity: 0;
+}
+.section10-container .section-10 .subtitle_container .enter {
+  filter: blur(0);
+  opacity: 1;
+}
+.section11-container .section-bg {
+  filter: brightness(0.7);
+}
+.section11-container .section-11 {
+  color: #fff;
+}
+.section11-container .section-11 .section-11__img01,
+.section11-container .section-11 .section-11__img02 {
+  filter: brightness(0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 75%;
+  height: 90%;
+}
+.section11-container .section-11 .section11-img_container .section-11__img01 {
+  transition: all 2s ease-in-out 4s;
+  z-index: 1;
+  left: 0;
+}
+.section11-container .section-11 .section11-img_container .enter {
+  left: -75%;
+}
+.section11-container .section-11 .section-11__img02 {
+  object-position: 10%;
+}
+.section11-container .section-11 .title_container .title {
+  transition: all 1s ease-in-out 1s;
+  z-index: 2;
+  position: absolute;
+  width: 80%;
+  left: 10%;
+  text-align: left;
+  bottom: 0%;
+  font-size: 50px;
+  font-weight: 300;
+  opacity: 0;
+}
+.section11-container .section-11 .title_container .enter {
+  bottom: 27%;
+  opacity: 1;
+}
+.section11-container .section-11 .subtitle_container .subtitle {
+  transition: all 1s ease-in-out 1s;
+  z-index: 2;
+  position: absolute;
+  width: 80%;
+  left: 10%;
+  bottom: -15%;
+  font-size: 70px;
+  font-weight: 800;
+  text-align: right;
+  opacity: 0;
+}
+.section11-container .section-11 .subtitle_container .enter {
+  bottom: 15%;
+  opacity: 1;
+}
+.section11-container .section-11 .downgrade_container .downgrade {
+  transition: all 1s ease-in-out 1s;
+  z-index: 2;
+  position: absolute;
+  bottom: 0%;
+  font-size: 30px;
+  width: 80%;
+  left: 10%;
+  text-align: center;
+  opacity: 0;
+}
+.section11-container .section-11 .downgrade_container .enter {
+  bottom: 16%;
+  opacity: 1;
+}
+.section12-container .sectionbg_container .section-bg {
+  transition: all 3s ease-in-out 1s;
+  left: -20%;
+  object-position: 100%;
+  filter: brightness(0.7);
+}
+.section12-container .sectionbg_container .enter {
+  left: -120%;
+}
+.section12-container .section-12 {
+  color: #fff;
+}
+.section12-container .section-12 .title_container .title {
+  transition: all 1s ease-in-out 1s;
+  animation: section12_title 1s both 1s;
+  z-index: 2;
+  position: absolute;
+  width: 80%;
+  left: 10%;
+  top: -10%;
+  font-size: 50px;
+  font-weight: 300;
+  opacity: 0;
+}
+.section12-container .section-12 .title_container .enter {
+  top: 0;
+  opacity: 1;
+}
+.section12-container .section-12 .subtitle_container .subtitle {
+  transition: all 1s ease-in-out 1s;
+  z-index: 2;
+  position: absolute;
+  width: 80%;
+  left: 10%;
+  top: 0%;
+  font-size: 70px;
+  font-weight: 800;
+  opacity: 0;
+}
+.section12-container .section-12 .subtitle_container .enter {
+  top: 13%;
+  opacity: 1;
+}
+.section12-container .section-12 .downgrade_container .downgrade {
+  transition: all 1s ease-in-out 1s;
+  z-index: 2;
+  position: absolute;
+  top: 0%;
+  font-size: 30px;
+  width: 80%;
+  left: 10%;
+  font-weight: 300;
+  opacity: 0;
+}
+.section12-container .section-12 .downgrade_container .enter {
+  top: 30%;
+  opacity: 1;
+}
+.section13-container .sectionbg_container .section-bg {
+  transition: all 3s ease-in-out 1s;
+  position: absolute;
+  height: 100%;
+  filter: brightness(0.7);
+  left: -100%;
+}
+.section13-container .sectionbg_container .enter {
+  left: -70%;
+}
+.section13-container .section-13 {
+  color: #fff;
+}
+.section13-container .section-13 .entorno_container .entorno {
+  transition: all 4s ease-in-out;
+  height: 150px;
+  position: absolute;
+  top: 1%;
+  left: 80%;
+}
+.section13-container .section-13 .entorno_container .enter {
+  left: -100%;
+}
+.section13-container .section-13 .title {
+  z-index: 2;
+  position: absolute;
+  width: 80%;
+  left: 10%;
+  bottom: 60%;
+  font-size: 40px;
+  font-weight: 300;
+}
+.section13-container .section-13 .subtitle {
+  z-index: 2;
+  position: absolute;
+  width: 80%;
+  left: 10%;
+  bottom: 42%;
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 0.9;
+}
+.section13-container .section-13 .downgrade_container .downgrade {
+  transition: all 1s ease-in-out 1s;
+  z-index: 2;
+  position: absolute;
+  bottom: 33%;
+  font-size: 24px;
+  width: 80%;
+  left: 10%;
+  font-weight: 300;
+  filter: blur(100px);
+  opacity: 0;
+}
+.section13-container .section-13 .downgrade_container .enter {
+  filter: blur(0);
+  opacity: 1;
+}
+.section13-container .section-13 .fachada {
+  position: absolute;
+  bottom: 3%;
+  left: 10%;
+  width: 80%;
+  height: 30%;
+  object-fit: cover;
+  object-position: bottom;
+}
+.section14-container .section-bg {
+  filter: brightness(1);
+}
+.section14-container .section-14 {
+  transition: all 1s ease-in-out 1s;
+  color: #fff;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 90%;
+  left: 0;
+  opacity: 0;
+}
+.section14-container .section-14 .section-14__img01 {
+  z-index: 2;
+  filter: brightness(0.7);
+  width: 60%;
+  height: 30%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  right: 10%;
+}
+.section14-container .section-14 .section-14__img02 {
+  filter: brightness(0.7);
+  position: absolute;
+  width: 70%;
+  height: 80%;
+  object-fit: cover;
+  left: 15%;
+  top: 10%;
+}
+.section14-container .section-14 .section-14__img03 {
+  z-index: 2;
+  width: 60%;
+  height: 30%;
+  object-fit: cover;
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+}
+.section14-container .section-14 .title {
+  z-index: 2;
+  position: absolute;
+  width: 80%;
+  left: 20%;
+  text-align: left;
+  top: 28%;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 1;
+}
+.section14-container .section-14 .subtitle {
+  z-index: 2;
+  position: absolute;
+  width: 80%;
+  left: 20%;
+  top: 55%;
+  font-size: 20px;
+  text-align: left;
+  font-weight: 300;
+}
+.section14-container .enter {
+  top: 0;
+  opacity: 1;
+}
+.section15-container {
+  background: #e40524;
+  display: flex;
+}
+.section15-container .section-15 {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(2, min-content);
+  row-gap: 30px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+.section15-container .section-15 .logo {
+  width: 60%;
+}
+.section15-container .section-15 .bptl {
+  width: 40%;
+}
+</style>
