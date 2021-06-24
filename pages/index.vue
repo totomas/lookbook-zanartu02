@@ -687,7 +687,7 @@ body {
   position: absolute;
   color: #fff;
   width: 80%;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 300;
   text-align: center;
   bottom: 20%;
@@ -1243,9 +1243,14 @@ body {
   .section12-container .section-12 .subtitle {
     font-size: 50px;
   }
+  .section13-container .section-13 .title {
+    font-size: 38px;
+  }
   .section13-container .section-13 .subtitle {
     font-size: 40px;
-    bottom: 56%;
+    bottom: 58%;
+    width: 90%;
+    left: 5%;
   }
   .section13-container .section-13 .downgrade {
     bottom: 35%;
