@@ -230,9 +230,19 @@
         </div>
       </div>
       <div class="section section13-container" id="section13">
-        <img id="section13_bg" lazyload class="section-bg" src="../assets/img/16.jpg" />
+        <img
+          id="section13_bg"
+          lazyload
+          class="section-bg"
+          src="../assets/img/16.jpg"
+        />
         <div class="section-13">
-          <img id="section13_entorno" lazyload class="entorno" src="../assets/img/entorno.png" />
+          <img
+            id="section13_entorno"
+            lazyload
+            class="entorno"
+            src="../assets/img/entorno.png"
+          />
           <p class="title">¡Mantengamos viva</p>
           <p class="subtitle">
             la vida de<br />
@@ -266,8 +276,14 @@
           <img class="section-14__img03" src="../assets/img/19.jpg" />
         </div>
       </div>
-      <div class="section section15-container">
-        <div class="section-15">
+      <div class="section section15-container" id="section15">
+        <video autoplay loop preload="auto" class="section-bg">
+          <source src="../assets/img/video04.mp4" type="video/mp4" />
+        </video>
+        <img src="../assets/img/logo-comuna.png">
+      </div>
+      <div class="section section16-container">
+        <div class="section-16">
           <img lazyload class="logo" src="../assets/img/bricsa.png" />
 
           <img lazyload class="bptl" src="../assets/img/bptl.png" />
@@ -278,7 +294,6 @@
 </template>
 
 <script>
-import { gsap } from "gsap";
 export default {
   mounted: function () {
     this.startAnimations();
@@ -286,7 +301,7 @@ export default {
   methods: {
     startAnimations: function () {
       var tl = new TimelineMax({ onUpdate: updatePercentage });
-      tl.to("#bricsa-square", 40, { top: "90%" }, 0);
+      tl.to("#bricsa-square", 45, { top: "90%" }, 0);
       tl.to("#section-bg01", 1, { "background-position-x": "-470px" }, 0);
       tl.to("#section1_vivelo", 1, { top: "20%" }, 0);
       tl.to("#section01", 1, { top: "-100%" }, 1);
@@ -362,6 +377,7 @@ export default {
       tl.to("#section13", 1, { top: "-100%" }, 38);
       tl.to("#section14-14", 1, { top: "0", opacity: "1" }, 39);
       tl.to("#section14", 1, { top: "-100%" }, 40);
+      tl.to("#section15", 1, { top: "-100%" }, 42);
       const scene = this.$scrollmagic
         .scene({
           triggerElement: ".wrapper",
@@ -410,7 +426,7 @@ body {
 }
 .bricsa-square {
   display: block;
-  position: fixed;
+  position: absolute;
   right: 0;
   top: 20px;
   width: 50px;
@@ -436,7 +452,8 @@ body {
 #section11,
 #section12,
 #section13,
-#section14 {
+#section14,
+#section15 {
   top: 0%;
   position: absolute !important;
 }
@@ -474,6 +491,9 @@ body {
   z-index: 3;
 }
 #section14 {
+  z-index: 2;
+}
+#section15 {
   z-index: 2;
 }
 .section01-container #section-bg01 {
@@ -600,7 +620,7 @@ body {
 .section03-container .disfruta {
   position: absolute;
   top: 0;
-  left: 70%;
+  left: 90%;
   z-index: 2;
 }
 .section03-container .section-bg02 {
@@ -1126,11 +1146,20 @@ body {
   top: 0;
   opacity: 1;
 }
-.section15-container {
+.section15-container .section-bg{
+  height: 100vh;
+}
+.section15-container img{
+  width: 40%;
+  position: absolute;
+  left: 30%;
+  bottom: 20%;
+}
+.section16-container {
   background: #e40524;
   display: flex;
 }
-.section15-container .section-15 {
+.section16-container .section-16 {
   display: grid;
   height: 100%;
   grid-template-columns: 100%;
@@ -1142,10 +1171,10 @@ body {
   align-content: center;
   align-self: center;
 }
-.section15-container .section-15 .logo {
+.section16-container .section-16 .logo {
   width: 60%;
 }
-.section15-container .section-15 .bptl {
+.section16-container .section-16 .bptl {
   width: 40%;
 }
 </style>
