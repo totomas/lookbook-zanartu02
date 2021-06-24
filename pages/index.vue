@@ -151,8 +151,7 @@
             src="../assets/img/10.jpg"
           />
           <p id="section07_downgrade" class="downgrade">
-            Diseño Flexible a la medida<br />
-            de cómo quieras vivir.
+            Diseño Flexible a la medida de cómo quieras vivir.
           </p>
         </div>
       </div>
@@ -176,17 +175,13 @@
             ¡Buena idea!
           </p>
           <p id="section08_title02" class="title02">
-            Un picoteo<br />
-            ¡y a relajarse!
+            Un picoteo ¡y a relajarse!
           </p>
           <p id="section08_subtitle" class="subtitle">
-            Ventanas termopanel con<br />
-            marco PVC (aislación térmica<br />
-            y acústica).
+            Ventanas termopanel con marco PVC (aislación térmica y acústica).
           </p>
           <p id="section08_subtitle02" class="subtitle02">
-            Cocina abierta y conectada<br />
-            con el living.
+            Cocina abierta y conectada con el living.
           </p>
         </div>
       </div>
@@ -233,10 +228,7 @@
           src="../assets/img/15.jpg"
         />
         <div class="section-12">
-          <p id="section12_title" class="title">
-            Recibe<br />
-            lo que quieras
-          </p>
+          <p id="section12_title" class="title">Recibe lo que quieras</p>
           <p id="section12_subtitle" class="subtitle">tranquilo</p>
           <p id="section12_downgrade" class="downgrade">Smart lockers.</p>
         </div>
@@ -325,7 +317,7 @@ export default {
       tl.to("#section01", 1, { top: "-100%" }, 1);
       tl.to("#section02_subtitle", 1, { bottom: "10%", opacity: "1" }, 1);
       tl.to("#section02", 1, { top: "-100%" }, 2);
-      tl.to("#section03_bg01", 3, { left: "-300%" }, 3);
+      tl.to("#section03_bg01", 3, { left: "-330%" }, 3);
       tl.to("#section03_subtitle01", 2, { left: "-100%" }, 3.5);
       tl.to("#section03_subtitle02", 2, { left: "10%" }, 4);
       tl.to("#section03_bg02", 2, { left: "-100%" }, 4);
@@ -421,6 +413,8 @@ export default {
 
 <style>
 .wrapper {
+  max-width: 426px;
+  width: 100% !important;
   overflow: hidden;
   margin: 0 auto;
   font-family: "Source Sans Pro", sans-serif;
@@ -428,14 +422,14 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  width: 100%;
   height: 100vh;
   position: relative;
   justify-content: center;
   align-items: flex-end;
 }
 body {
-  margin: 0 !important;
+  max-width: 426px;
+  margin: 0 auto !important;
 }
 .lookbook-container {
   position: relative;
@@ -1230,73 +1224,54 @@ body {
 .section16-container .section-16 .bptl {
   width: 40%;
 }
-@media screen and (max-height: 600px) {
+
+@media screen and (max-width: 376px) {
   .section01-container .section-01 .call {
-    font-size: 50px;
-    bottom: 43%;
-  }
-  .section02-container .section-02 .title {
     font-size: 50px;
     bottom: 40%;
   }
-  .section03-container .section-03 .title {
-    font-size: 40px;
-    bottom: 52%;
-  }
-  .section05-container .section-05 .title {
-    top: 5%;
-  }
-  .section05-container .section-05 .subtitle {
-    top: 20%;
-  }
-  .section06-container .section-06 .subtitle {
-    font-size: 24px;
-    top: 26%;
-  }
-  .section08-container .section-08 .title {
-    font-size: 50px;
-    bottom: 27%;
-  }
-  .section08-container .section-08 .subtitle {
-    width: 90%;
-    left: 5%;
-  }
-  .section08-container .section-08 .title02 {
-    font-size: 50px;
-  }
-  .section08-container .section-08 .subtitle02 {
-    top: 24%;
-  }
-  .section11-container .section-11 .subtitle {
+  .section02-container .section-02 .title {
     font-size: 60px;
   }
-  .section12-container .section-12 .title {
-    font-size: 40px;
+  .section03-container .section-03 .subtitle02 {
+    font-size: 28px;
   }
-  .section12-container .section-12 .subtitle {
-    font-size: 50px;
+  .section08-container .section-08 .subtitle02 {
+    top: 18%;
   }
   .section13-container .section-13 .title {
     font-size: 38px;
   }
-  .section13-container .section-13 .subtitle {
-    font-size: 30px;
-    bottom: 58%;
-    width: 90%;
-    left: 5%;
-  }
-  .section13-container .section-13 .downgrade {
-    bottom: 37%;
-    font-size: 20px;
-  }
-  .section14-container .section-14 .title {
-    line-height: 0.8;
-  }
 }
-@media screen and (max-height: 450px) {
-  .section01-container .section-01 .call {
+@media screen and (max-width: 321px) {
+  .section02-container .section-02 .subtitle {
     font-size: 30px;
-    bottom: 42%;
+  }
+  .section03-container .section-03 .title {
+    font-size: 50px;
+  }
+  .section03-container .section-03 .subtitle02 {
+    font-size: 25px;
+  }
+  .section05-container .section-05 .subtitle {
+    top: 16%;
+  }
+  .section07-container .section-07 .subtitle {
+    font-size: 80px;
+  }
+  .section08-container .section-08 .title02 {
+    font-size: 40px;
+  }
+  .section08-container .section-08 .subtitle02 {
+    top: 14%;
+  }
+  .section13-container .section-13 .title {
+    font-size: 32px;
+    bottom: 63%;
+  }
+  .section13-container .section-13 .subtitle {
+    font-size: 33px;
+    bottom: 59%;
   }
 }
 </style>
