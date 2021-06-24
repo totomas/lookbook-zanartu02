@@ -511,7 +511,7 @@ body {
   z-index: 2;
 }
 #section15 {
-  z-index: 2;
+  z-index: 1;
 }
 .loading{
   transition: all 1s both;
