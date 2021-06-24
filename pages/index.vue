@@ -317,11 +317,7 @@ export default {
     this.startAnimations();
   },
   mounted: function () {
-    setInterval(() => {
-      if (this.is_paused) return;
-
-      this.increasing_pct = Math.min(this.increasing_pct + 1, 100);
-    }, 20);
+    
   },
   methods: {
     startAnimations: function () {
@@ -417,6 +413,11 @@ export default {
   },
   created() {
     this.load();
+    setInterval(() => {
+      if (this.is_paused) return;
+
+      this.increasing_pct = Math.min(this.increasing_pct + 1, 100);
+    }, 20);
   },
 };
 </script>
