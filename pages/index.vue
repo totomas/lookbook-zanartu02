@@ -1,6 +1,9 @@
 <template>
   <div>
     <div class="wrapper">
+      <div class="loading" v-if="isLoading" >
+        <img src="../assets/img/logo-comuna.png">
+      </div>
       <span id="bricsa-square" class="bricsa-square"></span>
       <div class="section section01-container" id="section01">
         <div class="section-01">
@@ -295,6 +298,11 @@
 
 <script>
 export default {
+  data(){
+    return{
+      isLoading: true
+    }
+  },
   mounted: function () {
     this.startAnimations();
   },
@@ -393,6 +401,15 @@ export default {
         tl.progress();
       }
     },
+    load() {
+      this.isLoading = true;
+      setTimeout(() => {
+        this.isLoading = false;
+      }, 3000);
+    },
+  },
+  created() {
+    this.load();
   },
 };
 </script>
@@ -495,6 +512,29 @@ body {
 }
 #section15 {
   z-index: 2;
+}
+.loading{
+  transition: all 1s both;
+  background: #e40524;
+  z-index: 100;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.loading img{
+  animation: breath 1s both infinite alternate-reverse;
+  width: 40%;
+  position: absolute;
+  left: 30%;
+  top: 40%;
+}
+@keyframes breath {
+  0%{
+  transform: scale(0.9)
+  }
+  100%{
+    transform: scale(1);
+  }
 }
 .section01-container #section-bg01 {
   width: 100%;
