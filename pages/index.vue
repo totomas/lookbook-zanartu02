@@ -523,21 +523,22 @@ body {
   background: #e40524;
   z-index: 100;
   position: absolute;
+  display: grid;
+  grid-template-rows: repeat(2, min-content);
+  row-gap: 20px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
   width: 100%;
   height: 100%;
 }
 .loading img {
   animation: breath 1s both infinite alternate-reverse;
   width: 40%;
-  position: absolute;
-  left: 30%;
-  top: 40%;
 }
 .loading .loadingBar{
-  position: absolute;
   width: 60%;
-  left: 20%;
-  top: 60%;
 }
 @keyframes breath {
   0% {
