@@ -701,7 +701,7 @@ body {
   position: absolute;
   color: #fff;
   width: 80%;
-  font-size: 70px;
+  font-size: 60px;
   text-align: center;
   bottom: 32%;
   left: 10%;
