@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "core-js": "^3.9.1",
-    "gsap": "file:gsap-bonus.tgz",
+    "gsap": "^3.7.0",
     "nuxt": "^2.15.3",
     "vue-scrollmagic": "^1.2.0"
   },
