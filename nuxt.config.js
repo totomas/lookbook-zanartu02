@@ -24,6 +24,15 @@ export default {
     }
   ],
 
+  pwa: {
+    manifest: {
+      name: 'Vive Zañartu',
+      short_name: 'Vive Zañartu',
+      lang: 'es',
+      display: 'standalone',
+    },
+  },
+
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
