@@ -377,7 +377,7 @@ export default {
       tl.to("#section13", 1, { top: "-100%" }, 38);
       tl.to("#section14-14", 1, { top: "0", opacity: "1" }, 39);
       tl.to("#section14", 1, { top: "-100%" }, 40);
-      tl.to("#section15", 1, { top: "-100%" }, 42);
+      tl.to("#section15", 1, { top: "-100%" }, 41);
       const scene = this.$scrollmagic
         .scene({
           triggerElement: ".wrapper",
