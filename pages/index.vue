@@ -247,14 +247,10 @@
             src="../assets/img/entorno.png"
           />
           <p class="title">¡Mantengamos viva</p>
-          <p class="subtitle">
-            la vida de<br />
-            barrio!
-          </p>
+          <p class="subtitle">la vida de barrio!</p>
           <p id="section13_downgrade" class="downgrade">
-            Ubicado en un barrio<br />
-            tradicional de Ñuñoa, cercano<br />
-            a todo lo que necesitas.
+            Ubicado en un barrio tradicional de Ñuñoa, cercano a todo lo que
+            necesitas.
           </p>
           <img lazyload class="fachada" src="../assets/img/17.jpg" />
         </div>
@@ -359,15 +355,15 @@ export default {
       tl.to("#section10_title", 1, { filter: "blur(0)", opacity: "1" }, 24);
       tl.to("#section10_subtitle", 1, { filter: "blur(0)", opacity: "1" }, 24);
       tl.to("#section10", 1, { top: "-100%" }, 26);
-      tl.to("#section11_title", 1, { bottom: "27%", opacity: "1" }, 27);
+      tl.to("#section11_title", 1, { bottom: "30%", opacity: "1" }, 27);
       tl.to("#section11_subtitle", 1, { bottom: "19%", opacity: "1" }, 27);
       tl.to("#section11_downgrade", 1, { bottom: "16%", opacity: "1" }, 27);
       tl.to("#section11_img01", 2, { left: "-75%" }, 28);
       tl.to("#section11", 1, { top: "-100%" }, 30);
       tl.to("#section12_bg", 1, { left: "-120%" }, 31);
       tl.to("#section12_title", 1, { top: "5%", opacity: "1" }, 31);
-      tl.to("#section12_subtitle", 1, { top: "15%", opacity: "1" }, 31);
-      tl.to("#section12_downgrade", 1, { top: "25%", opacity: "1" }, 31);
+      tl.to("#section12_subtitle", 1, { top: "17%", opacity: "1" }, 31);
+      tl.to("#section12_downgrade", 1, { top: "27%", opacity: "1" }, 31);
       tl.to("#section12", 1, { top: "-100%" }, 33);
       tl.to("#section13_bg", 1, { left: "-70%" }, 34);
       tl.to("#section13_entorno", 4, { left: "-100%" }, 34);
@@ -1245,14 +1241,17 @@ body {
     font-size: 40px;
   }
   .section12-container .section-12 .subtitle {
-    font-size: 60px;
+    font-size: 50px;
   }
   .section13-container .section-13 .subtitle {
-    font-size: 50px;
-    bottom: 51%;
+    font-size: 40px;
+    bottom: 56%;
   }
   .section13-container .section-13 .downgrade {
     bottom: 35%;
+  }
+  .section14-container .section-14 .title {
+    line-height: 0.8;
   }
 }
 @media screen and (max-height: 450px) {
