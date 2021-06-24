@@ -7,7 +7,6 @@
 <style>
 html {
   max-width: 426px;
-  min-width: 426px;
   font-family:
     'Source Sans Pro',
     -apple-system,
