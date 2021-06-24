@@ -915,7 +915,7 @@ body {
   position: absolute;
   color: #fff;
   width: 80%;
-  font-size: 26px;
+  font-size: 22px;
   font-weight: 300;
   text-align: center;
   bottom: 5%;
