@@ -1,8 +1,8 @@
 <template>
   <div>
     <div class="wrapper">
-      <div class="loading" v-if="isLoading" >
-        <img src="../assets/img/logo-comuna.png">
+      <div class="loading" v-if="isLoading">
+        <img src="../assets/img/logo-comuna.png" />
       </div>
       <span id="bricsa-square" class="bricsa-square"></span>
       <div class="section section01-container" id="section01">
@@ -283,7 +283,7 @@
         <video autoplay loop preload="auto" class="section-bg">
           <source src="../assets/img/video04.mp4" type="video/mp4" />
         </video>
-        <img src="../assets/img/logo-comuna.png">
+        <img src="../assets/img/logo-comuna.png" />
       </div>
       <div class="section section16-container">
         <div class="section-16">
@@ -298,10 +298,10 @@
 
 <script>
 export default {
-  data(){
-    return{
-      isLoading: true
-    }
+  data() {
+    return {
+      isLoading: true,
+    };
   },
   mounted: function () {
     this.startAnimations();
@@ -322,18 +322,8 @@ export default {
       tl.to("#section03_disfruta", 4, { left: "-160%" }, 4);
       tl.to("#section03", 1, { top: "-100%" }, 7);
       tl.to("#section05_bg", 2, { left: "-100%" }, 8);
-      tl.to(
-        "#section05_title",
-        1,
-        { top: "5%", opacity: 1, filter: "blur(0)" },
-        8
-      );
-      tl.to(
-        "#section05_subtitle",
-        1,
-        { top: "15%", opacity: 1, filter: "blur(0)" },
-        8
-      );
+      tl.to("#section05_title", 1, { opacity: 1, filter: "blur(0)" }, 8);
+      tl.to("#section05_subtitle", 1, { opacity: 1, filter: "blur(0)" }, 8);
       tl.to("#section05_imgcut", 1, { right: "0%" }, 8);
       tl.to("#section05", 1, { top: "-100%" }, 10);
       tl.to("#section06_title", 1, { left: "5%" }, 11);
@@ -513,7 +503,7 @@ body {
 #section15 {
   z-index: 1;
 }
-.loading{
+.loading {
   transition: all 1s both;
   background: #e40524;
   z-index: 100;
@@ -521,7 +511,7 @@ body {
   width: 100%;
   height: 100%;
 }
-.loading img{
+.loading img {
   animation: breath 1s both infinite alternate-reverse;
   width: 40%;
   position: absolute;
@@ -529,10 +519,10 @@ body {
   top: 40%;
 }
 @keyframes breath {
-  0%{
-  transform: scale(0.9)
+  0% {
+    transform: scale(0.9);
   }
-  100%{
+  100% {
     transform: scale(1);
   }
 }
@@ -559,6 +549,7 @@ body {
   left: 20px;
 }
 .section01-container .section-01 .call {
+  transition: all 400ms;
   text-align: left;
   width: 70%;
   color: #fff;
@@ -566,7 +557,7 @@ body {
   font-weight: bolder;
   line-height: 0.8;
   position: absolute;
-  bottom: 33%;
+  bottom: 36%;
   left: 20px;
 }
 .section01-container .section-01 .downgrade {
@@ -610,6 +601,7 @@ body {
     bottom: 10px;
   }
 }
+
 .section02-container {
   position: relative;
 }
@@ -742,7 +734,7 @@ body {
   width: 90%;
   font-size: 40px;
   text-align: center;
-  top: 0;
+  top: 5%;
   opacity: 0;
   left: 5%;
   font-weight: 800;
@@ -756,7 +748,7 @@ body {
   font-size: 30px;
   font-weight: 300;
   text-align: center;
-  top: 0;
+  top: 20%;
   opacity: 0;
   left: 10%;
   line-height: 1;
@@ -829,9 +821,8 @@ body {
   width: 40%;
   height: 25%;
   object-fit: cover;
-  object-position: -100px center;
   position: absolute;
-  left: -40%;
+  left: -50%;
   bottom: 25%;
 }
 .section07-container .section-07 .title {
@@ -1186,10 +1177,10 @@ body {
   top: 0;
   opacity: 1;
 }
-.section15-container .section-bg{
+.section15-container .section-bg {
   height: 100vh;
 }
-.section15-container img{
+.section15-container img {
   width: 40%;
   position: absolute;
   left: 30%;
@@ -1216,5 +1207,58 @@ body {
 }
 .section16-container .section-16 .bptl {
   width: 40%;
+}
+@media screen and (max-height: 600px) {
+  .section01-container .section-01 .call {
+    font-size: 50px;
+    bottom: 43%;
+  }
+  .section02-container .section-02 .title {
+    font-size: 50px;
+    bottom: 40%;
+  }
+  .section03-container .section-03 .title {
+    font-size: 50px;
+    bottom: 52%;
+  }
+  .section05-container .section-05 .title {
+    top: 5%;
+  }
+  .section05-container .section-05 .subtitle {
+    top: 20%;
+  }
+  .section06-container .section-06 .subtitle {
+    font-size: 24px;
+    top: 26%;
+  }
+  .section08-container .section-08 .title {
+    font-size: 50px;
+    bottom: 27%;
+  }
+  .section08-container .section-08 .title02 {
+    font-size: 50px;
+  }
+  .section11-container .section-11 .subtitle {
+    font-size: 60px;
+  }
+  .section12-container .section-12 .title {
+    font-size: 40px;
+  }
+  .section12-container .section-12 .subtitle {
+    font-size: 60px;
+  }
+  .section13-container .section-13 .subtitle {
+    font-size: 50px;
+    bottom: 51%;
+  }
+  .section13-container .section-13 .downgrade {
+    bottom: 35%;
+  }
+}
+@media screen and (max-height: 450px) {
+  .section01-container .section-01 .call {
+    font-size: 30px;
+    bottom: 42%;
+  }
 }
 </style>
