@@ -1109,8 +1109,8 @@ body {
   position: absolute;
   width: 80%;
   left: 10%;
-  bottom: 52%;
-  font-size: 60px;
+  bottom: 53%;
+  font-size: 50px;
   font-weight: 800;
   line-height: 0.9;
 }
