@@ -316,9 +316,6 @@ export default {
   mounted: function () {
     this.startAnimations();
   },
-  mounted: function () {
-    
-  },
   methods: {
     startAnimations: function () {
       var tl = new TimelineMax({ onUpdate: updatePercentage });
