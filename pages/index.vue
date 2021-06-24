@@ -1231,6 +1231,10 @@ body {
     font-size: 50px;
     bottom: 27%;
   }
+  .section08-container .section-08 .subtitle{
+    width: 90%;
+    left: 5%;
+  }
   .section08-container .section-08 .title02 {
     font-size: 50px;
   }
