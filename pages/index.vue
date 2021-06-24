@@ -4,7 +4,7 @@
       <div class="loading" v-if="isLoading">
         <img src="../assets/img/logo-comuna.png" />
         <progress-bar
-        class="loadingBar"
+          class="loadingBar"
           bar-color="#fff"
           bg-color="#e40524"
           text-fg-color="#fff"
@@ -377,7 +377,7 @@ export default {
       tl.to("#section12_bg", 1, { left: "-120%" }, 31);
       tl.to("#section12_title", 1, { top: "5%", opacity: "1" }, 31);
       tl.to("#section12_subtitle", 1, { top: "17%", opacity: "1" }, 31);
-      tl.to("#section12_downgrade", 1, { top: "27%", opacity: "1" }, 31);
+      tl.to("#section12_downgrade", 1, { top: "30%", opacity: "1" }, 31);
       tl.to("#section12", 1, { top: "-100%" }, 33);
       tl.to("#section13_bg", 1, { left: "-70%" }, 34);
       tl.to("#section13_entorno", 4, { left: "-100%" }, 34);
@@ -537,7 +537,7 @@ body {
   animation: breath 1s both infinite alternate-reverse;
   width: 40%;
 }
-.loading .loadingBar{
+.loading .loadingBar {
   width: 60%;
 }
 @keyframes breath {
@@ -902,7 +902,7 @@ body {
   position: absolute;
   color: #fff;
   width: 90%;
-  font-size: 60px;
+  font-size: 50px;
   text-align: center;
   bottom: 17%;
   left: 5%;
@@ -929,7 +929,7 @@ body {
   position: absolute;
   color: #fff;
   width: 90%;
-  font-size: 60px;
+  font-size: 50px;
   text-align: center;
   top: 3%;
   left: 5%;
@@ -945,7 +945,7 @@ body {
   font-size: 26px;
   font-weight: 300;
   text-align: center;
-  top: 24%;
+  top: 16%;
   left: 10%;
   line-height: 1;
   filter: blur(20px);
@@ -1240,7 +1240,7 @@ body {
     bottom: 40%;
   }
   .section03-container .section-03 .title {
-    font-size: 50px;
+    font-size: 40px;
     bottom: 52%;
   }
   .section05-container .section-05 .title {
@@ -1264,6 +1264,9 @@ body {
   .section08-container .section-08 .title02 {
     font-size: 50px;
   }
+  .section08-container .section-08 .subtitle02 {
+    top: 24%;
+  }
   .section11-container .section-11 .subtitle {
     font-size: 60px;
   }
@@ -1277,13 +1280,14 @@ body {
     font-size: 38px;
   }
   .section13-container .section-13 .subtitle {
-    font-size: 40px;
+    font-size: 30px;
     bottom: 58%;
     width: 90%;
     left: 5%;
   }
   .section13-container .section-13 .downgrade {
-    bottom: 35%;
+    bottom: 37%;
+    font-size: 20px;
   }
   .section14-container .section-14 .title {
     line-height: 0.8;
