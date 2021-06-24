@@ -764,7 +764,7 @@ body {
   font-size: 30px;
   font-weight: 300;
   text-align: center;
-  top: 20%;
+  top: 16%;
   opacity: 0;
   left: 10%;
   line-height: 1;
@@ -1252,9 +1252,6 @@ body {
   }
   .section03-container .section-03 .subtitle02 {
     font-size: 25px;
-  }
-  .section05-container .section-05 .subtitle {
-    top: 16%;
   }
   .section07-container .section-07 .subtitle {
     font-size: 80px;
