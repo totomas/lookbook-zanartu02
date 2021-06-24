@@ -3,6 +3,15 @@
     <div class="wrapper">
       <div class="loading" v-if="isLoading">
         <img src="../assets/img/logo-comuna.png" />
+        <progress-bar
+        class="loadingBar"
+          bar-color="#fff"
+          bg-color="#e40524"
+          text-fg-color="#fff"
+          size="medium"
+          :val="increasing_pct"
+          :text="increasing_pct + '%'"
+        />
       </div>
       <span id="bricsa-square" class="bricsa-square"></span>
       <div class="section section01-container" id="section01">
@@ -293,14 +302,26 @@
 </template>
 
 <script>
+import ProgressBar from "vue-simple-progress";
 export default {
+  components: {
+    ProgressBar,
+  },
   data() {
     return {
       isLoading: true,
+      increasing_pct: 0,
     };
   },
   mounted: function () {
     this.startAnimations();
+  },
+  mounted: function () {
+    setInterval(() => {
+      if (this.is_paused) return;
+
+      this.increasing_pct = Math.min(this.increasing_pct + 1, 100);
+    }, 20);
   },
   methods: {
     startAnimations: function () {
@@ -513,6 +534,12 @@ body {
   position: absolute;
   left: 30%;
   top: 40%;
+}
+.loading .loadingBar{
+  position: absolute;
+  width: 60%;
+  left: 20%;
+  top: 60%;
 }
 @keyframes breath {
   0% {
@@ -1231,7 +1258,7 @@ body {
     font-size: 50px;
     bottom: 27%;
   }
-  .section08-container .section-08 .subtitle{
+  .section08-container .section-08 .subtitle {
     width: 90%;
     left: 5%;
   }
