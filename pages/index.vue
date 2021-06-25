@@ -398,7 +398,7 @@ export default {
       this.isLoading = true;
       setTimeout(() => {
         this.isLoading = false;
-      }, 3000);
+      }, 5000);
     },
   },
   created() {
@@ -407,7 +407,7 @@ export default {
       if (this.is_paused) return;
 
       this.increasing_pct = Math.min(this.increasing_pct + 1, 100);
-    }, 20);
+    }, 23);
   },
 };
 </script>
