@@ -2,7 +2,7 @@
   <div>
     <div class="wrapper">
       <div class="loading" v-if="isLoading">
-        <img src="../assets/img/logo-comuna.png" />
+        <img lazyload src="../assets/img/logo-comuna.png" />
         <progress-bar
           class="loadingBar"
           bar-color="#fff"
@@ -45,7 +45,7 @@
           <source src="../assets/img/video01.mp4" type="video/mp4" />
         </video>
         <div class="section-02">
-          <img src="../assets/img/02.jpg" />
+          <img lazyload src="../assets/img/02.jpg" />
           <p class="title">Date una vuelta y respira</p>
           <p id="section02_subtitle" class="subtitle">
             ¡Está rodeado de áreas verdes!
@@ -215,9 +215,10 @@
           <img
             id="section11_img01"
             class="section-11__img01"
+            lazyload
             src="../assets/img/08.jpg"
           />
-          <img class="section-11__img02" src="../assets/img/14.jpg" />
+          <img lazyload class="section-11__img02" src="../assets/img/14.jpg" />
         </div>
       </div>
       <div class="section section12-container" id="section12">
@@ -261,7 +262,7 @@
           <source src="../assets/img/video03.mp4" type="video/mp4" />
         </video>
         <div id="section14-14" class="section-14">
-          <img class="section-14__img01" src="../assets/img/11.jpg" />
+          <img lazyload class="section-14__img01" src="../assets/img/11.jpg" />
           <p class="title">
             Vívelo<br />
             por dentro<br />
@@ -272,15 +273,15 @@
             a disfrutarlo<br />
             la tienes tú.
           </p>
-          <img class="section-14__img02" src="../assets/img/18.jpg" />
-          <img class="section-14__img03" src="../assets/img/19.jpg" />
+          <img lazyload class="section-14__img02" src="../assets/img/18.jpg" />
+          <img lazyload class="section-14__img03" src="../assets/img/19.jpg" />
         </div>
       </div>
       <div class="section section15-container" id="section15">
         <video autoplay muted loop preload="auto" class="section-bg">
           <source src="../assets/img/video04.mp4" type="video/mp4" />
         </video>
-        <img src="../assets/img/logo-comuna.png" />
+        <img lazyload src="../assets/img/logo-comuna.png" />
       </div>
       <div class="section section16-container">
         <div class="section-16">
