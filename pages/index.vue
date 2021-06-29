@@ -1234,8 +1234,12 @@ body {
   .section02-container .section-02 .title {
     font-size: 60px;
   }
+  .section03-container .section-03 .title {
+    font-size: 50px;
+  }
   .section03-container .section-03 .subtitle02 {
-    font-size: 28px;
+    font-size: 25px;
+    bottom: 15%;
   }
   .section08-container .section-08 .subtitle02 {
     top: 18%;
@@ -1247,12 +1251,6 @@ body {
 @media screen and (max-width: 321px) {
   .section02-container .section-02 .subtitle {
     font-size: 30px;
-  }
-  .section03-container .section-03 .title {
-    font-size: 50px;
-  }
-  .section03-container .section-03 .subtitle02 {
-    font-size: 25px;
   }
   .section07-container .section-07 .subtitle {
     font-size: 80px;
