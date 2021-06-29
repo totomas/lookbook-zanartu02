@@ -41,7 +41,7 @@
         </div>
       </div>
       <div class="section section02-container" id="section02">
-        <video autoplay muted loop preload="auto" class="section-bg">
+        <video autoplay muted loop playsinline preload="auto" class="section-bg">
           <source src="../assets/img/video01.mp4" type="video/mp4" />
         </video>
         <div class="section-02">
@@ -205,7 +205,7 @@
         </div>
       </div>
       <div class="section section11-container" id="section11">
-        <video autoplay muted loop preload="auto" class="section-bg">
+        <video autoplay muted loop playsinline preload="auto" class="section-bg">
           <source src="../assets/img/video02.mp4" type="video/mp4" />
         </video>
         <div class="section-11">
@@ -258,7 +258,7 @@
         </div>
       </div>
       <div class="section section14-container" id="section14">
-        <video autoplay muted loop preload="auto" class="section-bg">
+        <video autoplay muted loop playsinline preload="auto" class="section-bg">
           <source src="../assets/img/video03.mp4" type="video/mp4" />
         </video>
         <div id="section14-14" class="section-14">
@@ -278,7 +278,7 @@
         </div>
       </div>
       <div class="section section15-container" id="section15">
-        <video autoplay muted loop preload="auto" class="section-bg">
+        <video autoplay muted loop playsinline preload="auto" class="section-bg">
           <source src="../assets/img/video04.mp4" type="video/mp4" />
         </video>
         <img lazyload src="../assets/img/logo-comuna.png" />
