@@ -590,9 +590,9 @@ body {
 }
 .section01-container .section-01 #section1_vivelo {
   transform: rotate(-90deg);
-  font-size: 230px;
+  font-size: 180px;
   position: absolute;
-  right: -250px;
+  right: -200px;
   margin: 0;
   font-weight: bolder;
   color: #fff;
@@ -1113,7 +1113,7 @@ body {
   z-index: 2;
   position: absolute;
   bottom: 39%;
-  font-size: 24px;
+  font-size: 22px;
   width: 80%;
   left: 10%;
   font-weight: 300;
@@ -1231,6 +1231,10 @@ body {
     font-size: 50px;
     bottom: 40%;
   }
+  .section01-container .section-01 #section1_vivelo{
+    font-size: 150px;
+    right: -160px;
+  }
   .section02-container .section-02 .title {
     font-size: 60px;
   }
@@ -1249,6 +1253,13 @@ body {
   }
 }
 @media screen and (max-width: 321px) {
+  .section01-container .section-01 .call {
+    font-size: 40px;
+  }
+  .section01-container .section-01 #section1_vivelo{
+    font-size: 150px;
+    right: -160px;
+  }
   .section02-container .section-02 .subtitle {
     font-size: 30px;
   }
