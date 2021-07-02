@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "@nuxtjs/pwa": "^3.3.5",
-    "core-js": "^3.9.1",
+    "core-js": "^3.15.2",
+    "express": "^4.17.1",
     "gsap": "^3.7.0",
     "nuxt": "^2.15.3",
     "vue-scrollmagic": "^1.2.0",
@@ -23,6 +24,7 @@
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "^26.6.3",
     "jest": "^26.6.3",
+    "node": "^16.4.0",
     "vue-jest": "^3.0.4"
   }
 }
