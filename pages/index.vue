@@ -2,7 +2,7 @@
   <div>
     <div class="wrapper">
       <div class="loading" v-if="isLoading">
-        <img lazyload src="~assets/img/logo-comuna.png" />
+        <img lazyload src="~/assets/img/logo-comuna.png" />
         <progress-bar
           class="loadingBar"
           bar-color="#fff"
@@ -20,7 +20,7 @@
           <img
             lazyload
             class="section-logo"
-            src="~assets/img/logo-comuna.png"
+            src="~/assets/img/logo-comuna.png"
           />
           <p class="call">
             Vívelo por <br />
@@ -35,17 +35,17 @@
           <img
             lazyload
             class="arrow-down"
-            src="~assets/img/arrow-down.png"
+            src="~/assets/img/arrow-down.png"
             alt=""
           />
         </div>
       </div>
       <div class="section section02-container" id="section02">
         <video autoplay muted loop playsinline preload="auto" class="section-bg">
-          <source src="~assets/img/video01.mp4" type="video/mp4" />
+          <source src="~/assets/img/video01.mp4" type="video/mp4" />
         </video>
         <div class="section-02">
-          <img lazyload src="~assets/img/02.jpg" />
+          <img lazyload src="~/assets/img/02.jpg" />
           <p class="title">Date una vuelta y respira</p>
           <p id="section02_subtitle" class="subtitle">
             ¡Está rodeado de áreas verdes!
@@ -57,7 +57,7 @@
           lazyload
           class="section-bg"
           id="section03_bg01"
-          src="~assets/img/03.jpg"
+          src="~/assets/img/03.jpg"
           alt=""
         />
 
@@ -65,13 +65,13 @@
           lazyload
           id="section03_disfruta"
           class="disfruta"
-          src="~assets/img/disfruta.png"
+          src="~/assets/img/disfruta.png"
         />
         <img
           lazyload
           id="section03_bg02"
           class="section-bg02"
-          src="~assets/img/04.jpg"
+          src="~/assets/img/04.jpg"
           alt=""
         />
         <div class="section-03">
@@ -92,7 +92,7 @@
           lazyload
           id="section05_bg"
           class="section-bg"
-          src="~assets/img/05.jpg"
+          src="~/assets/img/05.jpg"
         />
         <div class="section-05">
           <p id="section05_title" class="title">
@@ -107,13 +107,13 @@
             lazyload
             id="section05_imgcut"
             class="imgcut"
-            src="~assets/img/06.jpg"
+            src="~/assets/img/06.jpg"
           />
         </div>
       </div>
       <div class="section section06-container" id="section06">
         <div class="section-06">
-          <img lazyload class="imgtop" src="~assets/img/20.jpg" />
+          <img lazyload class="imgtop" src="~/assets/img/20.jpg" />
           <p id="section06_title" class="title">
             ¡Que rico <br />
             <strong>vivir así!</strong>
@@ -127,7 +127,7 @@
             lazyload
             id="section06_imgbottom"
             class="imgbottom"
-            src="~assets/img/08.jpg"
+            src="~/assets/img/08.jpg"
           />
         </div>
       </div>
@@ -136,7 +136,7 @@
           lazyload
           id="section07_bg"
           class="section-bg"
-          src="~assets/img/4.jpg"
+          src="~/assets/img/4.jpg"
         />
         <div class="section-07">
           <p id="section07_title" class="title">El espacio perfecto</p>
@@ -148,7 +148,7 @@
             id="section07_imgcut"
             lazyload
             class="imgcut"
-            src="~assets/img/10.jpg"
+            src="~/assets/img/10.jpg"
           />
           <p id="section07_downgrade" class="downgrade">
             Diseño Flexible a la medida de cómo quieras vivir.
@@ -160,13 +160,13 @@
           lazyload
           id="section08_bg"
           class="section-bg"
-          src="~assets/img/11.jpg"
+          src="~/assets/img/11.jpg"
         />
         <img
           lazyload
           id="section08_bg02"
           class="section-bg02"
-          src="~assets/img/12.jpg"
+          src="~/assets/img/12.jpg"
         />
         <div class="section-08">
           <p id="section08_title" class="title">
@@ -190,7 +190,7 @@
           id="section10_bg"
           lazyload
           class="section-bg"
-          src="~assets/img/13.jpg"
+          src="~/assets/img/13.jpg"
         />
         <div class="section-10">
           <p id="section10_title" class="title">
@@ -206,7 +206,7 @@
       </div>
       <div class="section section11-container" id="section11">
         <video autoplay muted loop playsinline preload="auto" class="section-bg">
-          <source src="~assets/img/video02.mp4" type="video/mp4" />
+          <source src="~/assets/img/video02.mp4" type="video/mp4" />
         </video>
         <div class="section-11">
           <p id="section11_title" class="title">Así da gusto</p>
@@ -216,9 +216,9 @@
             id="section11_img01"
             class="section-11__img01"
             lazyload
-            src="~assets/img/08.jpg"
+            src="~/assets/img/08.jpg"
           />
-          <img lazyload class="section-11__img02" src="~assets/img/14.jpg" />
+          <img lazyload class="section-11__img02" src="~/assets/img/14.jpg" />
         </div>
       </div>
       <div class="section section12-container" id="section12">
@@ -226,7 +226,7 @@
           id="section12_bg"
           lazyload
           class="section-bg"
-          src="~assets/img/15.jpg"
+          src="~/assets/img/15.jpg"
         />
         <div class="section-12">
           <p id="section12_title" class="title">Recibe lo que quieras</p>
@@ -239,14 +239,14 @@
           id="section13_bg"
           lazyload
           class="section-bg"
-          src="~assets/img/16.jpg"
+          src="~/assets/img/16.jpg"
         />
         <div class="section-13">
           <img
             id="section13_entorno"
             lazyload
             class="entorno"
-            src="~assets/img/entorno.png"
+            src="~/assets/img/entorno.png"
           />
           <p class="title">¡Mantengamos viva</p>
           <p class="subtitle">la vida de barrio!</p>
@@ -254,15 +254,15 @@
             Ubicado en un barrio tradicional de Ñuñoa, cercano a todo lo que
             necesitas.
           </p>
-          <img lazyload class="fachada" src="~assets/img/17.jpg" />
+          <img lazyload class="fachada" src="~/assets/img/17.jpg" />
         </div>
       </div>
       <div class="section section14-container" id="section14">
         <video autoplay muted loop playsinline preload="auto" class="section-bg">
-          <source src="~assets/img/video03.mp4" type="video/mp4" />
+          <source src="~/assets/img/video03.mp4" type="video/mp4" />
         </video>
         <div id="section14-14" class="section-14">
-          <img lazyload class="section-14__img01" src="~assets/img/11.jpg" />
+          <img lazyload class="section-14__img01" src="~/assets/img/11.jpg" />
           <p class="title">
             Vívelo<br />
             por dentro<br />
@@ -273,21 +273,21 @@
             a disfrutarlo<br />
             la tienes tú.
           </p>
-          <img lazyload class="section-14__img02" src="~assets/img/18.jpg" />
-          <img lazyload class="section-14__img03" src="~assets/img/19.jpg" />
+          <img lazyload class="section-14__img02" src="~/assets/img/18.jpg" />
+          <img lazyload class="section-14__img03" src="~/assets/img/19.jpg" />
         </div>
       </div>
       <div class="section section15-container" id="section15">
         <video autoplay muted loop playsinline preload="auto" class="section-bg">
-          <source src="~assets/img/video04.mp4" type="video/mp4" />
+          <source src="~/assets/img/video04.mp4" type="video/mp4" />
         </video>
-        <img lazyload src="~assets/img/logo-comuna.png" />
+        <img lazyload src="~/assets/img/logo-comuna.png" />
       </div>
       <div class="section section16-container">
         <div class="section-16">
-          <img lazyload class="logo" src="~assets/img/bricsa.png" />
+          <img lazyload class="logo" src="~/assets/img/bricsa.png" />
 
-          <img lazyload class="bptl" src="~assets/img/bptl.png" />
+          <img lazyload class="bptl" src="~/assets/img/bptl.png" />
         </div>
       </div>
     </div>
@@ -546,7 +546,7 @@ body {
 .section01-container #section-bg01 {
   width: 100%;
   height: 100vh;
-  background: url("~assets/img/01.jpg") no-repeat;
+  background: url("~/assets/img/01.jpg") no-repeat;
   background-position-x: 0;
 }
 .section01-container .section-01 {
