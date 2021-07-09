@@ -6,6 +6,7 @@
 
 <style>
 html {
+  scroll-behavior: smooth;
   width: 100%;
   font-family:
     'Source Sans Pro',

@@ -13,10 +13,17 @@
           :text="increasing_pct + '%'"
         />
       </div>
+      <div class="instructions" v-show="isCover">
+        <p>Para navegar por el lookbook solo debes hacer scroll</p>
+        <img src="~/assets/img/scroll.png" />
+        <button class="instructions_btn" @click="isCover = !isCover">
+          Empezar a navegar
+        </button>
+      </div>
       <span id="bricsa-square" class="bricsa-square"></span>
       <div class="section section01-container" id="section01">
         <div class="section-01">
-          <div id="section-bg01" />
+          <div id="section-bg01" :class="{ move: !isCover }" />
           <img
             lazyload
             class="section-logo"
@@ -32,16 +39,17 @@
             nuevo departamento.
           </p>
           <p id="section1_vivelo" class="uptext">Vívelo</p>
-          <img
-            lazyload
-            class="arrow-down"
-            src="~/assets/img/arrow-down.png"
-            alt=""
-          />
         </div>
       </div>
       <div class="section section02-container" id="section02">
-        <video autoplay muted loop playsinline preload="auto" class="section-bg">
+        <video
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="auto"
+          class="section-bg"
+        >
           <source src="~/assets/img/video01.mp4" type="video/mp4" />
         </video>
         <div class="section-02">
@@ -205,7 +213,14 @@
         </div>
       </div>
       <div class="section section11-container" id="section11">
-        <video autoplay muted loop playsinline preload="auto" class="section-bg">
+        <video
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="auto"
+          class="section-bg"
+        >
           <source src="~/assets/img/video02.mp4" type="video/mp4" />
         </video>
         <div class="section-11">
@@ -228,7 +243,7 @@
           class="section-bg"
           src="~/assets/img/15.jpg"
         />
-        <div class="section-12">
+        <div class="section-12" id="section12-content">
           <p id="section12_title" class="title">Recibe lo que quieras</p>
           <p id="section12_subtitle" class="subtitle">tranquilo</p>
           <p id="section12_downgrade" class="downgrade">Smart lockers.</p>
@@ -258,7 +273,14 @@
         </div>
       </div>
       <div class="section section14-container" id="section14">
-        <video autoplay muted loop playsinline preload="auto" class="section-bg">
+        <video
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="auto"
+          class="section-bg"
+        >
           <source src="~/assets/img/video03.mp4" type="video/mp4" />
         </video>
         <div id="section14-14" class="section-14">
@@ -278,7 +300,14 @@
         </div>
       </div>
       <div class="section section15-container" id="section15">
-        <video autoplay muted loop playsinline preload="auto" class="section-bg">
+        <video
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="auto"
+          class="section-bg"
+        >
           <source src="~/assets/img/video04.mp4" type="video/mp4" />
         </video>
         <img lazyload src="~/assets/img/logo-comuna.png" />
@@ -304,6 +333,7 @@ export default {
     return {
       isLoading: true,
       increasing_pct: 0,
+      isCover: true,
     };
   },
   mounted: function () {
@@ -368,9 +398,7 @@ export default {
       tl.to("#section11_img01", 2, { left: "-75%" }, 28);
       tl.to("#section11", 1, { top: "-100%" }, 30);
       tl.to("#section12_bg", 1, { left: "-120%" }, 31);
-      tl.to("#section12_title", 1, { top: "5%", opacity: "1" }, 31);
-      tl.to("#section12_subtitle", 1, { top: "17%", opacity: "1" }, 31);
-      tl.to("#section12_downgrade", 1, { top: "30%", opacity: "1" }, 31);
+      tl.to("#section12-content", 1, { top: "5%", opacity: "1" }, 31);
       tl.to("#section12", 1, { top: "-100%" }, 33);
       tl.to("#section13_bg", 1, { left: "-70%" }, 34);
       tl.to("#section13_entorno", 4, { left: "-100%" }, 34);
@@ -383,7 +411,7 @@ export default {
         .scene({
           triggerElement: ".wrapper",
           triggerHook: 0,
-          duration: "4000%",
+          duration: "5000%",
         })
         .setPin(".wrapper")
         .setTween(tl);
@@ -473,6 +501,8 @@ body {
 #section15 {
   top: 0%;
   position: absolute !important;
+  transition-timing-function: ease;
+  transition-duration: 100ms;
 }
 #section01 {
   z-index: 13;
@@ -543,11 +573,61 @@ body {
     transform: scale(1);
   }
 }
+.instructions {
+  background: #e40524;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: repeat(3, min-content);
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  row-gap: 20px;
+  z-index: 14;
+}
+.instructions p {
+  color: #fff;
+  font-size: 26px;
+  width: 90%;
+  text-align: center;
+  font-weight: 300;
+}
+.instructions img {
+  width: 10%;
+  animation: arrow-down 1s both infinite alternate-reverse;
+  position: absolute;
+}
+@keyframes arrow-down {
+  0% {
+    bottom: 5%;
+  }
+  100% {
+    bottom: 3%;
+  }
+}
+.instructions .instructions_btn {
+  color: #fff;
+  background: rgba(0, 0, 0, 0);
+  border: solid 2px #fff;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  transition: 400ms;
+}
+.instructions .instructions_btn:hover {
+  background: #b9041c;
+}
 .section01-container #section-bg01 {
   width: 100%;
   height: 100vh;
   background: url("~/assets/img/01.jpg") no-repeat;
-  background-position-x: 0;
+}
+.section01-container .move {
+  animation: section01-bg 2s ease-in-out forwards;
 }
 .section01-container .section-01 {
   background: rgba(0, 0, 0, 0.3);
@@ -598,24 +678,13 @@ body {
   color: #fff;
   top: 100%;
 }
-.section01-container .section-01 .arrow-down {
-  animation-name: arrow-down;
-  animation-duration: 1s;
-  animation-fill-mode: both;
-  animation-iteration-count: infinite;
-  animation-direction: alternate-reverse;
-  width: 100px;
-  position: absolute;
-  margin: 0 auto;
-  left: 150px;
-  bottom: 20px;
-}
-@keyframes arrow-down {
+
+@keyframes section01-bg {
   0% {
-    bottom: 25px;
+    background-position-x: 0;
   }
   100% {
-    bottom: 10px;
+    background-position-x: -470px;
   }
 }
 
@@ -1044,36 +1113,27 @@ body {
 .section12-container .section-12 {
   color: #fff;
 }
-.section12-container .section-12 .title {
+.section12-container #section12-content {
   z-index: 2;
   position: absolute;
   width: 80%;
   left: 10%;
   top: -10%;
+  opacity: 0;
+}
+.section12-container .section-12 .title {
   font-size: 50px;
   font-weight: 300;
-  opacity: 0;
   line-height: 0.9;
 }
 .section12-container .section-12 .subtitle {
-  z-index: 2;
-  position: absolute;
-  width: 80%;
-  left: 10%;
-  top: 0%;
   font-size: 70px;
   font-weight: 800;
-  opacity: 0;
 }
 .section12-container .section-12 .downgrade {
-  z-index: 2;
-  position: absolute;
-  top: 0%;
   font-size: 30px;
-  width: 80%;
-  left: 10%;
+  width: 100%;
   font-weight: 300;
-  opacity: 0;
 }
 .section13-container .section-bg {
   position: absolute;
@@ -1231,15 +1291,15 @@ body {
     font-size: 50px;
     bottom: 40%;
   }
-  .section01-container .section-01 #section1_vivelo{
+  .section01-container .section-01 #section1_vivelo {
     font-size: 150px;
     right: -160px;
   }
   .section02-container .section-02 .title {
-    font-size: 60px;
+    font-size: 50px;
   }
   .section03-container .section-03 .title {
-    font-size: 50px;
+    font-size: 40px;
   }
   .section03-container .section-03 .subtitle02 {
     font-size: 25px;
@@ -1256,12 +1316,23 @@ body {
   .section01-container .section-01 .call {
     font-size: 40px;
   }
-  .section01-container .section-01 #section1_vivelo{
+  .section01-container .section-01 #section1_vivelo {
     font-size: 150px;
     right: -160px;
   }
   .section02-container .section-02 .subtitle {
     font-size: 30px;
+  }
+  .section03-container .section-03 .subtitle {
+    font-size: 25px;
+    bottom: 15%;
+  }
+  .section05-container .section-05 .subtitle {
+    top: 21%;
+  }
+  .section06-container .section-06 .subtitle {
+    font-size: 26px;
+    top: 23%;
   }
   .section07-container .section-07 .subtitle {
     font-size: 80px;
@@ -1269,8 +1340,8 @@ body {
   .section08-container .section-08 .title02 {
     font-size: 40px;
   }
-  .section08-container .section-08 .subtitle02 {
-    top: 14%;
+  .section12-container .section-12 .subtitle {
+    font-size: 50px;
   }
   .section13-container .section-13 .title {
     font-size: 32px;
@@ -1278,7 +1349,10 @@ body {
   }
   .section13-container .section-13 .subtitle {
     font-size: 33px;
-    bottom: 59%;
+    bottom: 55%;
+  }
+  .section13-container .section-13 .downgrade {
+    font-size: 20px;
   }
 }
 </style>
