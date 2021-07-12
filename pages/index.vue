@@ -834,7 +834,7 @@ body {
   font-size: 30px;
   font-weight: 300;
   text-align: center;
-  top: 16%;
+  top: 20%;
   opacity: 0;
   left: 10%;
   line-height: 1;
@@ -993,7 +993,7 @@ body {
   position: absolute;
   color: #fff;
   width: 90%;
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
   top: 3%;
   left: 5%;
@@ -1301,6 +1301,10 @@ body {
   .section03-container .section-03 .title {
     font-size: 40px;
   }
+  .section03-container .section-03 .subtitle {
+    font-size: 25px;
+    bottom: 15%;
+  }
   .section03-container .section-03 .subtitle02 {
     font-size: 25px;
     bottom: 15%;
@@ -1323,10 +1327,6 @@ body {
   .section02-container .section-02 .subtitle {
     font-size: 30px;
   }
-  .section03-container .section-03 .subtitle {
-    font-size: 25px;
-    bottom: 15%;
-  }
   .section05-container .section-05 .subtitle {
     top: 21%;
   }
@@ -1336,9 +1336,6 @@ body {
   }
   .section07-container .section-07 .subtitle {
     font-size: 80px;
-  }
-  .section08-container .section-08 .title02 {
-    font-size: 40px;
   }
   .section12-container .section-12 .subtitle {
     font-size: 50px;
