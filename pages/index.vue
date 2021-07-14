@@ -14,7 +14,7 @@
         />
       </div>
       <div class="instructions" v-show="isCover">
-        <p>Para navegar por el lookbook solo debes hacer scroll</p>
+        <p>Para navegar por el lookbook solo debes hacer scroll.</p>
         <img src="~/assets/img/scroll.png" />
         <button class="instructions_btn" @click="isCover = !isCover">
           Empezar a navegar
