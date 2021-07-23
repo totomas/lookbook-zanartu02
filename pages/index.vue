@@ -441,6 +441,16 @@ export default {
 </script>
 
 <style>
+::-webkit-scrollbar {
+    height: 0 !important;
+} 
+::-webkit-scrollbar-track {
+    background: #fff; 
+} 
+::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-radius: 0;
+}
 .wrapper {
   max-width: 426px;
   width: 100% !important;
