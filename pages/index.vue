@@ -20,6 +20,11 @@
           Empezar a navegar
         </button>
       </div>
+      <div class="verlite" v-show="verLite">
+        <span @click="verLite = !verLite">X</span>
+        <p>Para un mejor rendimiento ve la versión Lite</p>
+        <a href="https://bricsa.cl/wp-content/lookbook/zanartulite.html">Ver Lite</a>
+      </div>
       <span id="bricsa-square" class="bricsa-square"></span>
       <div class="section section01-container" id="section01">
         <div class="section-01">
@@ -334,6 +339,7 @@ export default {
       isLoading: true,
       increasing_pct: 0,
       isCover: true,
+      verLite: true,
     };
   },
   mounted: function () {
@@ -628,6 +634,47 @@ body {
   transition: 400ms;
 }
 .instructions .instructions_btn:hover {
+  background: #b9041c;
+}
+
+.verlite{
+  background: #e40524;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  display: grid;
+  grid-template-rows: min-content;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  row-gap: 10px;
+  z-index: 14;
+}
+
+.verlite span{
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+.verlite p{
+  margin: 0;
+}
+.verlite a {
+   color: #fff;
+  background: rgba(0, 0, 0, 0);
+  border: solid 2px #fff;
+  border-radius: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: 400ms;
+  text-decoration: none;
+}
+.verlite a:hover{
   background: #b9041c;
 }
 .section01-container #section-bg01 {

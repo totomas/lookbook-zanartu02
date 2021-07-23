@@ -81,13 +81,6 @@
 
 
 /*!
- * vue-simple-progress v1.1.1 (https://github.com/dzwillia/vue-simple-progress)
- * (c) 2019 David Z. Williams
- * Released under the MIT License.
- */
-
-
-/*!
   * vue-router v3.5.2
   * (c) 2021 Evan You
   * @license MIT
@@ -96,5 +89,12 @@
 /*!
  * Vue.js v2.6.14
  * (c) 2014-2021 Evan You
+ * Released under the MIT License.
+ */
+
+
+/*!
+ * vue-simple-progress v1.1.1 (https://github.com/dzwillia/vue-simple-progress)
+ * (c) 2019 David Z. Williams
  * Released under the MIT License.
  */
